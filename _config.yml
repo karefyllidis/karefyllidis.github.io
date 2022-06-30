@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "Oxford, UK"
-title                    : "Nikolas Karefyllidis MSc."
+title                    : "Nikolas Karefyllidis "
 title_separator          : "-"
 name                     : &name "Nikolas Karefyllidis"
 description              : &description "DPhil Canditate | University of Oxford"
@@ -81,14 +81,14 @@ analytics:
 # Site Author
 author:
   name             : "Nikolas Karefyllidis"
-  avatar           : "profile.png"
-  bio              : "PhD Canditate in Thermo-fluids & Turbomachinery | University of Oxford"
+  avatar           : "2EA89DAE-DE0A-42A2-BDED-5525EF4ED7D5.jpeg"
+  bio              : "PhD Candidate in Thermofluids & Turbomachinery "
   location         : "Oxford, UK"
   employer         : "University of Oxford"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
   email            : "nikolas.karefyllidis@eng.ox.ac.uk "
-  researchgate     : # # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : #  example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :

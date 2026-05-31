@@ -25,7 +25,8 @@
   summary: "Coolbrook-sponsored PhD on aerothermal design of novel turbomachines for hydrocarbon cracking."
   highlights:
     - "Designed axial, radial, mixed-flow, and regenerative turbo-heaters/reactors; ran TB-scale HPC campaigns on ARC, CSD3, and Rescale."
-    - "Developed hybrid turbulence modelling, LES workflows, and Bayesian-calibrated reduced-order aero-chemistry models."
+    - "Implemented a scale-adaptive Spalart–Allmaras turbulence model (hybrid LES/URANS) in in-house CFD; calibrated coefficients via Bayesian optimisation."
+    - "Developed holdout-validated reduced-order aero-chemistry models linking flow states to reaction yields."
     - "Co-supervised MSc students on CFD and turbomachinery projects."
 
 - role: "Testing Engineer"

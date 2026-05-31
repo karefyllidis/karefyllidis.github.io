@@ -147,22 +147,16 @@ body {
   align-items: start;
 }
 
+.about-grid--no-photo {
+  grid-template-columns: 1fr;
+}
+
 .profile-photo {
   width: 140px;
   height: 140px;
   border-radius: var(--radius);
   object-fit: cover;
   border: 1px solid var(--color-border);
-}
-
-.profile-photo-placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--color-badge-bg);
-  color: var(--color-text-muted);
-  font-size: 2.5rem;
-  font-weight: 600;
 }
 
 .about-content h2 {
@@ -684,6 +678,11 @@ body {
     grid-template-columns: 1fr;
     justify-items: center;
     text-align: center;
+  }
+
+  .about-grid--no-photo {
+    text-align: left;
+    justify-items: start;
   }
 
   .contact-inline {

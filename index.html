@@ -18,14 +18,12 @@ layout: default
 
 <section id="about" class="section">
   <div class="container">
-    <div class="about-grid">
+    <div class="about-grid{% unless site.author.image != '' %} about-grid--no-photo{% endunless %}">
       {% if site.author.image != "" %}
         <img class="profile-photo" src="{{ site.author.image | relative_url }}" alt="{{ site.author.name }}">
-      {% else %}
-        <div class="profile-photo profile-photo-placeholder" aria-hidden="true">NK</div>
       {% endif %}
       <div class="about-content">
-        <h2>About Me</h2>
+        <h2>About</h2>
         <p>{{ site.author.bio }}</p>
         <ul class="contact-inline">
           <li><a href="mailto:{{ site.author.email }}">Email</a></li>

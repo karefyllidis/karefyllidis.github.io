@@ -17,11 +17,6 @@
     - Supersonic Rotors
     - Method of Characteristics
     - Turbomachinery Design
-  figures:
-    - src: "/assets/images/moc-blade-segments.png"
-      caption: "MOC blade segment decomposition — lower/upper circular arcs, transition arcs, straight inlet/outlet, and circular LE/TE."
-    - src: "/assets/images/mach-contour-blade-passage.png"
-      caption: "Isentropic Mach contour in the blade-to-blade passage — peak M<sub>is</sub> = 2.67 at rotor mid-chord."
 
 - category: phd
   title: "In-House Parallel CFD & LES"
@@ -35,7 +30,7 @@
 - category: phd
   title: "Hybrid Spalart–Allmaras Turbulence Model"
   period: "Oxford PhD"
-  description: "Developed a hybrid Spalart–Allmaras turbulence model variant in Oxford's in-house CFD solver — LES/URANS for high-speed turbomachinery flows. Calibrated model coefficients via Bayesian optimisation against LES and experimental benchmarks with holdout validation before design use."
+  description: "Developed a hybrid Spalart–Allmaras turbulence model variant in Oxford's in-house CFD solver — LES/URANS for high-speed turbomachinery flows. Calibrated model coefficients via Bayesian optimisation."
   tags:
     - Spalart–Allmaras
     - Hybrid LES / URANS
@@ -52,12 +47,11 @@
 
 - category: industry
   title: "New Multi-Stage Meanline Design Code"
-  period: "Oxford & Coolbrook"
-  description: "Built and extended in-house multi-stage aerodynamics meanline software with integrated Cantera pyrolytic chemistry — enabling rapid performance screening, holdout-validated stage matching, and robust multistage design for turbo-reactors with guaranteed aerodynamic performance across vaneless-space and loading variations."
+  period: "Oxford (Visiting Researcher)"
+  description: "Extended in-house multi-stage aerodynamics meanline code with integrated Cantera reacting-flow chemistry — holdout-validated surrogates for rapid performance screening."
   tags:
     - Meanline Methods
     - Cantera
-    - Python
     - Performance Screening
 
 - category: industry
@@ -74,16 +68,16 @@
 - category: industry
   title: "Turbo-Reactor Pilot Validation"
   period: "Coolbrook Technologies"
-  description: "Led detailed 3D unsteady CFD for a first-of-a-kind turbo-reactor pilot at a live petrochemical test site; validated against rig and plant data, benchmarked PyTorch reduced-order surrogates, and documented offline/online divergence modes by operating regime."
+  description: "Led 3D unsteady CFD for a first-of-a-kind turbo-reactor pilot at a live petrochemical test site; validated against rig and plant data."
   tags:
     - ANSYS Fluent
     - Pilot Validation
-    - Scientific ML
+    - CFD Validation
 
 - category: open_source
-  title: "Black-Box Optimisation"
+  title: "Bayesian Optimisation of Unknown Functions — NeurIPS 2020 BBO"
   period: "Personal project"
-  description: "GP–Bayesian optimisation benchmark on 8 unknown functions in the NeurIPS 2020 BBO challenge format."
+  description: "GP–Bayesian optimisation of 8 unknown functions in the NeurIPS 2020 BBO challenge format; improved all 8 objectives."
   tags:
     - Python
     - Bayesian Optimisation

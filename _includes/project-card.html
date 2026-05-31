@@ -22,14 +22,4 @@
       <span class="project-note">Proprietary — details on request</span>
     {% endif %}
   </div>
-  {% if include.project.figures %}
-    <div class="project-figures">
-      {% for fig in include.project.figures %}
-        <figure class="project-figure">
-          <img src="{{ fig.src | relative_url }}" alt="{{ fig.caption }}" loading="lazy">
-          <figcaption>{{ fig.caption }}</figcaption>
-        </figure>
-      {% endfor %}
-    </div>
-  {% endif %}
 </article>

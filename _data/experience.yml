@@ -4,9 +4,9 @@
   url: "https://www.coolbrook.com"
   summary: "PhD-to-product technical leadership on novel turbo-reactor/heater platforms for industrial decarbonisation."
   highlights:
-    - "Led end-to-end aero-chemical design of next-generation axial turbo-reactors and pilot validation at a live petrochemical test site."
-    - "Built multi-stage meanline tools with integrated pyrolytic chemistry and PyTorch reduced-order surrogates validated against CFD and plant data."
-    - "Co-led product definition; drafted patents and led techno-commercial feasibility for furnace integrations."
+    - "Led end-to-end 3D unsteady CFD for a first-of-a-kind turbo-reactor pilot at a live petrochemical test site; validated against real plant data."
+    - "Developed reduced-order aero-chemistry surrogate models validated against high-fidelity CFD and pilot test results."
+    - "Co-led product definition with Product Manager; drafted patents on next-generation turbo-reactors."
 
 - role: "Visiting Researcher"
   org: "University of Oxford, Dept. of Engineering Science"
@@ -35,7 +35,7 @@
   url: "https://www.ansys.com"
   summary: "Automated regression testing and QA for Ansys CFX and the turbomachinery toolchain."
   highlights:
-    - "Led QA across CFX, Fluent, Mechanical, TurboGrid, and BladeGen; built bespoke test suites for new solver features."
+    - "Built automated regression test suites (>500 cases) for new CFX solver features; designed failure detection and triage workflows."
 
 - role: "Spacecraft Propulsion Researcher"
   org: "Surrey Space Centre (AAReST mission)"

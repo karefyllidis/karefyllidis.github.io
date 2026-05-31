@@ -22,7 +22,7 @@
   <p class="publication-meta">
     <em>{{ include.pub.venue }}</em>{% if include.pub.date %}, {{ include.pub.date }}{% endif %}
   </p>
-  {% if include.pub.doi or include.pub.abstract or include.pub.bibtex or include.pub.award_url %}
+  {% if include.pub.doi or include.pub.abstract or include.pub.bibtex or include.pub.award_url or include.pub.url %}
     <div class="pub-links">
       {% if include.pub.abstract %}
         <details class="pub-details">
@@ -43,7 +43,7 @@
         <a href="https://doi.org/{{ include.pub.doi }}" target="_blank" rel="noopener noreferrer">DOI</a>
       {% endif %}
       {% if include.pub.url %}
-        <a href="{{ include.pub.url }}" target="_blank" rel="noopener noreferrer">HTML</a>
+        <a href="{{ include.pub.url }}" target="_blank" rel="noopener noreferrer">{{ include.pub.link_label | default: "HTML" }}</a>
       {% endif %}
     </div>
   {% endif %}

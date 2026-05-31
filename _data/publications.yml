@@ -59,6 +59,7 @@
   venue: "University of Oxford (PhD Thesis)"
   date: "2024"
   url: "https://ora.ox.ac.uk/objects/uuid:2479abe8-fefb-4574-b573-a309c278a614"
+  link_label: "Thesis"
 
 - journal_short: "GPPS"
   title: "A New Robust Regenerative Turbo-Reactor Concept for Clean Hydrocarbon Cracking"

@@ -5,13 +5,17 @@ baseurl: ""
 
 author:
   name: Nikolas Karefyllidis
+  role: "DPhil Engineering Science, University of Oxford"
   email: nikolas.karefyllidis@eng.ox.ac.uk
-  bio: Aerospace Engineering PhD (Oxford). Research in turbomachinery aerodynamics, high-enthalpy gas heating, multiphysics modelling, and CFD for next-generation energy and propulsion systems.
+  image: ""
+  bio: Multiphysics modelling engineer specialising in turbomachinery aerodynamics, high-enthalpy gas heating, and CFD. Passionate about developing advanced numerical solutions for complex engineering challenges in the energy transition — from novel turbo-reactors to AI-accelerated design workflows.
   tagline: Aerodynamics · Turbomachinery · Multiphysics Modelling · HPC · AI & ML
 
 social:
   github: https://github.com/karefyllidis
   linkedin: https://www.linkedin.com/in/karefyllidis/
+
+resume_url: ""
 
 skills:
   - Turbomachinery

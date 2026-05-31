@@ -1,0 +1,8 @@
+- title: "High-Enthalpy Turbo-Heater Aerodynamics"
+  description: "Investigating the robustness and flexibility of a novel axial energy-imparting turbomachine for high-temperature gas heating, including multistage CFD and design-space exploration for decarbonised chemical processes."
+
+- title: "Turbo-Reactor Concept Development"
+  description: "Contributing to the aerodynamic and aerothermal design of a regenerative turbo-reactor for clean hydrocarbon cracking, replacing gas-fired furnaces with electrically driven mechanical energy transfer."
+
+- title: "Neural Surrogates & Black-Box Optimization"
+  description: "Exploring data-driven and optimization workflows to accelerate turbomachinery design and multiphysics modelling under limited experimental data."

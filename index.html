@@ -5,37 +5,62 @@ layout: default
 <section class="hero">
   <div class="container">
     <h1>{{ site.author.name }}</h1>
+    <p class="hero-role">{{ site.author.role }}</p>
     <p class="tagline">{{ site.author.tagline }}</p>
-    <div class="hero-actions">
-      <a class="btn btn-primary" href="#publications">View Publications</a>
-      <a class="btn btn-secondary" href="#contact">Get in Touch</a>
-    </div>
   </div>
 </section>
 
 <section id="about" class="section">
   <div class="container">
-    <h2>About</h2>
-    <p>{{ site.author.bio }}</p>
+    <div class="about-grid">
+      {% if site.author.image != "" %}
+        <img class="profile-photo" src="{{ site.author.image | relative_url }}" alt="{{ site.author.name }}">
+      {% else %}
+        <div class="profile-photo profile-photo-placeholder" aria-hidden="true">{{ site.author.name | slice: 0 }}</div>
+      {% endif %}
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>{{ site.author.bio }}</p>
+        <ul class="contact-inline">
+          <li><a href="mailto:{{ site.author.email }}">Email</a></li>
+          <li><a href="{{ site.social.github }}" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="{{ site.social.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+        <ul class="skill-list">
+          {% for skill in site.skills %}
+            <li>{{ skill }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
   </div>
 </section>
 
-<section id="publications" class="section section-alt">
+<section id="research" class="section section-alt">
   <div class="container">
-    <h2>Publications</h2>
+    <h2>Selected Research Projects</h2>
+    <ul class="research-list">
+      {% for item in site.data.research_projects %}
+        <li>
+          <strong>{{ item.title }}:</strong> {{ item.description }}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section id="publications" class="section">
+  <div class="container">
+    <h2>Selected Publications</h2>
     <ol class="publication-list">
       {% for pub in site.data.publications %}
-        <li class="publication-item">
-          <p class="publication-title">{{ pub.title }}</p>
-          <p class="publication-meta">{{ pub.authors }}</p>
-          <p class="publication-meta"><em>{{ pub.venue }}</em>, {{ pub.year }}{% if pub.citations > 0 %} · {{ pub.citations }} citations{% endif %}</p>
-        </li>
+        {% include publication.html pub=pub %}
       {% endfor %}
     </ol>
   </div>
 </section>
 
-<section id="projects" class="section">
+<section id="projects" class="section section-alt">
   <div class="container">
     <h2>Projects</h2>
     <div class="project-grid">
@@ -64,35 +89,14 @@ layout: default
   </div>
 </section>
 
-<section id="skills" class="section section-alt">
-  <div class="container">
-    <h2>Skills</h2>
-    <ul class="skill-list">
-      {% for skill in site.skills %}
-        <li>{{ skill }}</li>
-      {% endfor %}
-    </ul>
-  </div>
-</section>
-
 <section id="contact" class="section">
   <div class="container">
     <h2>Contact</h2>
-    <p>Feel free to reach out — I'm always open to new opportunities and collaborations.</p>
+    <p>Open to collaborations in turbomachinery, CFD, and AI-accelerated engineering design.</p>
     <ul class="contact-list">
-      <li>
-        <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-      </li>
-      {% if site.social.github %}
-        <li>
-          <a href="{{ site.social.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
-        </li>
-      {% endif %}
-      {% if site.social.linkedin %}
-        <li>
-          <a href="{{ site.social.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        </li>
-      {% endif %}
+      <li><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+      <li><a href="{{ site.social.github }}" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      <li><a href="{{ site.social.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
     </ul>
   </div>
 </section>

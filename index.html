@@ -8,6 +8,11 @@ layout: default
     <p class="hero-role">{{ site.author.role }}</p>
     <p class="hero-location">{{ site.author.location }}</p>
     <p class="tagline">{{ site.author.tagline }}</p>
+    {% if site.author.featured_award %}
+      <p class="hero-award">
+        <a href="{{ site.author.featured_award.url }}" target="_blank" rel="noopener noreferrer">{{ site.author.featured_award.title }}</a>
+      </p>
+    {% endif %}
   </div>
 </section>
 

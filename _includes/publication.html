@@ -5,7 +5,13 @@
   <p class="publication-title">
     {{ include.pub.title }}
     {% if include.pub.award %}
-      <span class="pub-award">({{ include.pub.award }})</span>
+      <span class="pub-award">(
+        {% if include.pub.award_url %}
+          <a href="{{ include.pub.award_url }}" target="_blank" rel="noopener noreferrer">{{ include.pub.award }}</a>
+        {% else %}
+          {{ include.pub.award }}
+        {% endif %}
+      )</span>
     {% endif %}
   </p>
   <p class="publication-meta pub-authors">
@@ -16,7 +22,7 @@
   <p class="publication-meta">
     <em>{{ include.pub.venue }}</em>{% if include.pub.date %}, {{ include.pub.date }}{% endif %}
   </p>
-  {% if include.pub.doi or include.pub.abstract or include.pub.bibtex %}
+  {% if include.pub.doi or include.pub.abstract or include.pub.bibtex or include.pub.award_url %}
     <div class="pub-links">
       {% if include.pub.abstract %}
         <details class="pub-details">
@@ -29,6 +35,9 @@
           <summary>Bib</summary>
           <pre class="pub-bibtex"><code>{{ include.pub.bibtex }}</code></pre>
         </details>
+      {% endif %}
+      {% if include.pub.award_url %}
+        <a href="{{ include.pub.award_url }}" target="_blank" rel="noopener noreferrer">Award</a>
       {% endif %}
       {% if include.pub.doi %}
         <a href="https://doi.org/{{ include.pub.doi }}" target="_blank" rel="noopener noreferrer">DOI</a>

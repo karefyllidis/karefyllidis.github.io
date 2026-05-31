@@ -123,6 +123,21 @@ body {
   color: var(--color-text-muted);
 }
 
+.hero-award {
+  margin: 0.75rem 0 0;
+  font-size: 0.9375rem;
+}
+
+.hero-award a {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero-award a:hover {
+  text-decoration: underline;
+}
+
 /* About */
 
 .about-grid {
@@ -420,6 +435,15 @@ body {
   font-weight: 500;
   color: var(--color-accent);
   font-size: 0.95rem;
+}
+
+.pub-award a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.pub-award a:hover {
+  text-decoration: underline;
 }
 
 .publication-meta {

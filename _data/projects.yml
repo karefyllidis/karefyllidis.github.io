@@ -17,6 +17,11 @@
     - Supersonic Rotors
     - Method of Characteristics
     - Turbomachinery Design
+  figures:
+    - src: "/assets/images/moc-blade-segments.png"
+      caption: "MOC blade segment decomposition — lower/upper circular arcs, transition arcs, straight inlet/outlet, and circular LE/TE."
+    - src: "/assets/images/mach-contour-blade-passage.png"
+      caption: "Isentropic Mach contour in the blade-to-blade passage — peak M<sub>is</sub> = 2.67 at rotor mid-chord."
 
 - category: phd
   title: "In-House Parallel CFD & LES"

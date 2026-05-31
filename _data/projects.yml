@@ -49,7 +49,7 @@
 - category: industry
   title: "HydrAI"
   period: "Oxford (Visiting Researcher)"
-  description: "Proprietary scientific ML framework on the meanline aerodynamics stack — Cantera detailed chemistry, PINN/RNN training, and symbolic regression (SymPy/PyTorch) to recover compact governing-equation structure from learned residuals, coupled back to CFD with per-output holdout evaluation across operating conditions."
+  description: "Proprietary scientific ML framework — Cantera detailed chemistry, PINN/RNN training, and symbolic regression (SymPy/PyTorch) to recover compact governing-equation structure from learned residuals, coupled back to CFD with per-output holdout evaluation across operating conditions."
   tags:
     - PyTorch
     - PINN / RNN

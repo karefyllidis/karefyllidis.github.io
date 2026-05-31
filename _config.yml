@@ -24,11 +24,14 @@ resume_url: ""
 skills:
   - Python
   - PyTorch
+  - MATLAB
   - CFD & Reacting Flows
   - Turbomachinery
   - Scientific ML & Surrogates
+  - Monte Carlo UQ
   - HPC (CSD3, ARC, Slurm)
   - ANSYS CFX / Fluent
+  - Cantera
   - Bayesian Optimisation
 
 exclude:

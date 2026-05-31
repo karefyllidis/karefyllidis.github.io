@@ -28,13 +28,12 @@
     - HPC (ARC, CSD3, Rescale)
 
 - category: phd
-  title: "Scale-Adaptive Spalart–Allmaras Turbulence Model"
+  title: "Hybrid Spalart–Allmaras Turbulence Model"
   period: "Oxford PhD"
-  description: "Developed a scale-adaptive turbulence model (SATM) variant of the Spalart–Allmaras closure in Oxford's in-house CFD solver — hybrid LES/URANS for high-speed turbomachinery flows. Calibrated model coefficients via Bayesian optimisation against LES and experimental benchmarks with holdout validation before design use."
+  description: "Developed a hybrid Spalart–Allmaras turbulence model variant in Oxford's in-house CFD solver — LES/URANS for high-speed turbomachinery flows. Calibrated model coefficients via Bayesian optimisation against LES and experimental benchmarks with holdout validation before design use."
   tags:
     - Spalart–Allmaras
     - Hybrid LES / URANS
-    - SATM
     - Bayesian Optimisation
 
 - category: phd

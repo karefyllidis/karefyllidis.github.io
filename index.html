@@ -3,23 +3,25 @@ layout: default
 ---
 
 <section class="hero">
-  <div class="container">
-    <h1>{{ site.author.name }}</h1>
-    <p class="hero-role">{{ site.author.role }}</p>
-    <p class="hero-location">{{ site.author.location }}</p>
-    <p class="tagline">{{ site.author.tagline }}</p>
-    {% if site.author.featured_award %}
-      <a class="hero-badge" href="{{ site.author.featured_award.url }}" target="_blank" rel="noopener noreferrer">{{ site.author.featured_award.title }}</a>
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <h1>{{ site.author.name }}</h1>
+      <p class="hero-role">{{ site.author.role }}</p>
+      <p class="hero-location">{{ site.author.location }}</p>
+      <p class="tagline">{{ site.author.tagline }}</p>
+      {% if site.author.featured_award %}
+        <a class="hero-badge" href="{{ site.author.featured_award.url }}" target="_blank" rel="noopener noreferrer">{{ site.author.featured_award.title }}</a>
+      {% endif %}
+    </div>
+    {% if site.author.image != "" %}
+      <img class="hero-photo" src="{{ site.author.image | relative_url }}" alt="{{ site.author.name }}" width="148" height="148">
     {% endif %}
   </div>
 </section>
 
 <section id="about" class="section">
   <div class="container">
-    <div class="about-grid{% unless site.author.image != '' %} about-grid--no-photo{% endunless %}">
-      {% if site.author.image != "" %}
-        <img class="profile-photo" src="{{ site.author.image | relative_url }}" alt="{{ site.author.name }}">
-      {% endif %}
+    <div class="about-grid about-grid--no-photo">
       <div class="about-content">
         <h2 class="section-title">About</h2>
         <p>{{ site.author.bio }}</p>
@@ -80,6 +82,23 @@ layout: default
               <a href="{{ edu.url }}" target="_blank" rel="noopener noreferrer">{{ edu.institution }}</a>
             {% else %}
               {{ edu.institution }}
+            {% endif %}
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <h2 class="subsection-title" id="professional-development">Professional Development</h2>
+    <ul class="education-list">
+      {% for item in site.data.further_education %}
+        <li>
+          <span class="edu-period">{{ item.period }}</span>
+          <span class="edu-degree">{{ item.title }}</span>
+          <span class="edu-institution">
+            {% if item.url %}
+              <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.provider }}</a>
+            {% else %}
+              {{ item.provider }}
             {% endif %}
           </span>
         </li>

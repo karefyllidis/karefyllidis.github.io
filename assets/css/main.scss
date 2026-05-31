@@ -1,6 +1,15 @@
 ---
 ---
 
+@font-face {
+  font-family: "Inter";
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif 4";
+  font-display: swap;
+}
+
 /* Refined academic portfolio */
 
 :root {
@@ -116,6 +125,41 @@ a {
   padding: 3.5rem 0 2.5rem;
   border-bottom: 1px solid var(--color-border-light);
   background: linear-gradient(180deg, var(--color-surface) 0%, var(--color-bg) 100%);
+}
+
+.hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.hero-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: var(--radius);
+  object-fit: cover;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+  flex-shrink: 0;
+}
+
+@media (max-width: 480px) {
+  .hero-inner {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+
+  .hero-photo {
+    width: 88px;
+    height: 88px;
+  }
 }
 
 .hero h1 {

@@ -24,23 +24,15 @@ Edit these files to personalize the site:
 | `_data/projects.yml` | Your project cards |
 | `assets/css/main.scss` | Colors and styling (optional) |
 
-When deploying, your site URL is:
-
-```yaml
-url: "https://karefyllidis.github.io"
-baseurl: "/nikolas-karefyllidis.github.io"
-```
-
-Live site: [https://karefyllidis.github.io/nikolas-karefyllidis.github.io/](https://karefyllidis.github.io/nikolas-karefyllidis.github.io/)
+Live site: [https://karefyllidis.github.io](https://karefyllidis.github.io)
 
 ## Deploy to GitHub Pages
 
-1. Create a **public** repository on GitHub named `nikolas-karefyllidis.github.io`.
-2. Push from this folder:
+Repository: **`karefyllidis.github.io`** (user site — served at the root URL).
 
 ```bash
 cd /Users/nikolaskarefyllidis/Desktop/15_GitPage
-git remote set-url origin git@github.com:karefyllidis/nikolas-karefyllidis.github.io.git
+git remote set-url origin git@github.com:karefyllidis/karefyllidis.github.io.git
 git push -u origin main
 ```
 

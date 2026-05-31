@@ -19,6 +19,15 @@
     - Turbomachinery Design
 
 - category: phd
+  title: "Reduced-Order Aero-Chemistry Models"
+  period: "Oxford PhD"
+  description: "Coupled flow-field and yield prediction linking turbomachinery aerodynamics to pyrolysis chemistry; holdout-validated reduced-order models for rapid design screening."
+  tags:
+    - Cantera
+    - Surrogate Modelling
+    - Reacting Flows
+
+- category: phd
   title: "In-House Parallel CFD & LES"
   period: "Oxford PhD"
   description: "Extended Oxford in-house Fortran/MPI CFD with MPI parallelisation; ran massively parallel LES on ARC and CSD3 and built Python pipelines for TB-scale post-processing and design-space screening."
@@ -35,24 +44,6 @@
     - Spalart–Allmaras
     - Hybrid LES / URANS
     - Bayesian Optimisation
-
-- category: phd
-  title: "Reduced-Order Aero-Chemistry Models"
-  period: "Oxford PhD"
-  description: "Coupled flow-field and yield prediction linking turbomachinery aerodynamics to pyrolysis chemistry; holdout-validated reduced-order models for rapid design screening."
-  tags:
-    - Cantera
-    - Surrogate Modelling
-    - Reacting Flows
-
-- category: industry
-  title: "New Multi-Stage Meanline Design Code"
-  period: "Oxford (Visiting Researcher)"
-  description: "Extended in-house multi-stage aerodynamics meanline code with integrated Cantera reacting-flow chemistry — holdout-validated surrogates for rapid performance screening."
-  tags:
-    - Meanline Methods
-    - Cantera
-    - Performance Screening
 
 - category: industry
   title: "HydrAI"
@@ -73,6 +64,15 @@
     - ANSYS Fluent
     - Pilot Validation
     - CFD Validation
+
+- category: industry
+  title: "New Multi-Stage Meanline Design Code"
+  period: "Oxford (Visiting Researcher)"
+  description: "Extended in-house multi-stage aerodynamics meanline code with integrated Cantera reacting-flow chemistry — holdout-validated surrogates for rapid performance screening."
+  tags:
+    - Meanline Methods
+    - Cantera
+    - Performance Screening
 
 - category: open_source
   title: "Bayesian Optimisation of Unknown Functions — NeurIPS 2020 BBO"

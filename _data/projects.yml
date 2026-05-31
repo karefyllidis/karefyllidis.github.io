@@ -66,15 +66,6 @@
     - Pilot Validation
     - Scientific ML
 
-- category: industry
-  title: "In-House Blade & Annulus Design Tools"
-  period: "Coolbrook Technologies"
-  description: "Standardised turbomachinery design workflows and built in-house blade- and annulus-design tools used across the turbo-reactor development programme — from PhD research methods to production design pipelines."
-  tags:
-    - Turbomachinery Design
-    - Design Automation
-    - Productisation
-
 - category: open_source
   title: "Black-Box Optimisation"
   period: "Personal project"

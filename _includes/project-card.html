@@ -1,0 +1,25 @@
+<article class="project-card">
+  {% if include.project.period %}
+    <span class="project-period">{{ include.project.period }}</span>
+  {% endif %}
+  <h3>{{ include.project.title }}</h3>
+  <p>{{ include.project.description }}</p>
+  {% if include.project.tags %}
+    <ul class="tag-list">
+      {% for tag in include.project.tags %}
+        <li>{{ tag }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  <div class="project-links">
+    {% if include.project.github %}
+      <a href="{{ include.project.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+    {% endif %}
+    {% if include.project.link_url %}
+      <a href="{{ include.project.link_url }}" target="_blank" rel="noopener noreferrer">{{ include.project.link_label | default: "Link" }}</a>
+    {% endif %}
+    {% if include.project.proprietary %}
+      <span class="project-note">Proprietary — details on request</span>
+    {% endif %}
+  </div>
+</article>

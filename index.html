@@ -101,20 +101,7 @@ layout: default
   </div>
 </section>
 
-<section id="research" class="section">
-  <div class="container">
-    <h2>Selected Research Highlights</h2>
-    <ul class="research-list">
-      {% for item in site.data.research_projects %}
-        <li>
-          <strong>{{ item.title }}:</strong> {{ item.description }}
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-</section>
-
-<section id="publications" class="section section-alt">
+<section id="publications" class="section">
   <div class="container">
     <h2>Selected Publications</h2>
     <ol class="publication-list">
@@ -125,36 +112,37 @@ layout: default
   </div>
 </section>
 
-<section id="projects" class="section">
+<section id="projects" class="section section-alt">
   <div class="container">
-    <h2>Open-Source Projects</h2>
+    <h2>Projects</h2>
+
+    {% assign phd_projects = site.data.projects | where: "category", "phd" %}
+    <h3 class="project-group-title">PhD Research</h3>
     <div class="project-grid">
-      {% for project in site.data.projects %}
-        <article class="project-card">
-          <h3>{{ project.title }}</h3>
-          <p>{{ project.description }}</p>
-          {% if project.tags %}
-            <ul class="tag-list">
-              {% for tag in project.tags %}
-                <li>{{ tag }}</li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-          <div class="project-links">
-            {% if project.github %}
-              <a href="{{ project.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
-            {% endif %}
-            {% if project.demo %}
-              <a href="{{ project.demo }}" target="_blank" rel="noopener noreferrer">Live Demo</a>
-            {% endif %}
-          </div>
-        </article>
+      {% for project in phd_projects %}
+        {% include project-card.html project=project %}
+      {% endfor %}
+    </div>
+
+    {% assign industry_projects = site.data.projects | where: "category", "industry" %}
+    <h3 class="project-group-title">Industry & Applied Research</h3>
+    <div class="project-grid">
+      {% for project in industry_projects %}
+        {% include project-card.html project=project %}
+      {% endfor %}
+    </div>
+
+    {% assign oss_projects = site.data.projects | where: "category", "open_source" %}
+    <h3 class="project-group-title">Open Source</h3>
+    <div class="project-grid">
+      {% for project in oss_projects %}
+        {% include project-card.html project=project %}
       {% endfor %}
     </div>
   </div>
 </section>
 
-<section id="contact" class="section section-alt">
+<section id="contact" class="section">
   <div class="container">
     <h2>Contact</h2>
     <p>Based in Oxford, UK. Open to collaborations in turbomachinery, scientific ML, and industrial decarbonisation.</p>

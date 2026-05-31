@@ -1,17 +1,105 @@
-- title: Black-Box Optimisation
-  description: GP–Bayesian optimisation benchmark on 8 unknown functions in the NeurIPS 2020 BBO challenge format.
+- category: phd
+  title: "Novel Turbo-Heater & Turbo-Reactor Aerodynamics"
+  period: "Oxford PhD, 2019–2024"
+  description: "Aerothermal design of axial, radial, mixed-flow, and regenerative turbo-heaters/reactors for hydrocarbon cracking — the core of the DPhil thesis on high-enthalpy gas heating for industrial decarbonisation."
+  tags:
+    - Turbomachinery
+    - Supersonic Flows
+    - Reacting Flows
+  link_label: "PhD Thesis"
+  link_url: "https://ora.ox.ac.uk/objects/uuid:2479abe8-fefb-4574-b573-a309c278a614"
+
+- category: phd
+  title: "Supersonic Blade-Row Design Codes"
+  period: "Oxford PhD"
+  description: "Fast design tools using the method of characteristics to maximise thermal power through optimal supersonic rotor and stator profiling for energy-imparting turbomachine stages."
+
+  tags:
+    - Method of Characteristics
+    - MATLAB
+    - Turbomachinery Design
+
+- category: phd
+  title: "In-House Parallel CFD & LES"
+  period: "Oxford PhD"
+  description: "Extended Oxford in-house Fortran/MPI CFD with a hybrid turbulence model and parallelisation; ran massively parallel LES on ARC and CSD3 and built Python pipelines for TB-scale post-processing and design-space screening."
+  tags:
+    - Fortran / OpenMPI
+    - LES
+    - HPC (ARC, CSD3, Rescale)
+
+- category: phd
+  title: "Reduced-Order Aero-Chemistry Models"
+  period: "Oxford PhD"
+  description: "Coupled flow-field and yield prediction models linking turbomachinery aerodynamics to pyrolysis chemistry; calibrated hybrid turbulence coefficients via Bayesian optimisation and validated on withheld operating conditions."
+  tags:
+    - Cantera
+    - Bayesian Optimisation
+    - Surrogate Modelling
+
+- category: industry
+  title: "Turbo-Reactor Pilot Validation"
+  period: "Coolbrook Technologies"
+  description: "Led detailed 3D unsteady CFD for a first-of-a-kind turbo-reactor pilot at a live petrochemical test site; validated against rig and plant data and documented offline/online divergence modes by operating regime."
+  tags:
+    - ANSYS Fluent
+    - Pilot Validation
+    - Industrial Decarbonisation
+
+- category: industry
+  title: "Multi-Stage Meanline with Reacting-Flow Chemistry"
+  period: "Oxford & Coolbrook"
+  description: "Extended in-house multi-stage aerodynamics meanline code with integrated Cantera pyrolytic chemistry for rapid screening, holdout-validated surrogates, and multidisciplinary optimisation across operating conditions."
+  tags:
+    - Meanline Methods
+    - Cantera
+    - Python
+
+- category: industry
+  title: "PyTorch Aero-Chemistry Surrogates"
+  period: "Coolbrook Technologies"
+  description: "Built PyTorch reduced-order aero-chemistry models benchmarked against high-fidelity CFD and pilot sensors; closed offline/online gaps with targeted retraining data and Monte Carlo UQ for risk-aware design."
+  tags:
+    - PyTorch
+    - Scientific ML
+    - Monte Carlo UQ
+
+- category: industry
+  title: "HydrAI"
+  period: "Oxford (Visiting Researcher)"
+  description: "Proprietary scientific ML framework integrating Cantera detailed chemistry, PINN/RNN training, and symbolic regression on residuals to recover compact governing structure — coupled back to CFD with holdout evaluation. Details available on request."
+  tags:
+    - PINN / RNN
+    - Symbolic Regression
+    - Proprietary
+  proprietary: true
+
+- category: industry
+  title: "AAReST Micro-Propulsion Unit"
+  period: "Surrey Space Centre, 2016–2017"
+  description: "BEng thesis and propulsion engineering for the AAReST spacecraft mission with Caltech and NASA JPL — delivered a bespoke micro-propulsion unit after architecture and material trade studies."
+  tags:
+    - Spacecraft Propulsion
+    - Caltech / NASA JPL
+  link_label: "Mission"
+  link_url: "https://www.pellegrino.caltech.edu/aarest1"
+
+- category: open_source
+  title: "Black-Box Optimisation"
+  period: "Personal project"
+  description: "GP–Bayesian optimisation benchmark on 8 unknown functions in the NeurIPS 2020 BBO challenge format."
   tags:
     - Python
     - Bayesian Optimisation
     - Jupyter
-  github: https://github.com/karefyllidis/black-box-optimization
-  demo: ""
+  github: "https://github.com/karefyllidis/black-box-optimization"
 
-- title: NN-SVG
-  description: Publication-ready neural network architecture schematics (fork of alexlenail/NN-SVG).
+- category: open_source
+  title: "NN-SVG"
+  period: "Personal project"
+  description: "Publication-ready neural network architecture schematics (fork of alexlenail/NN-SVG)."
   tags:
     - JavaScript
     - Neural Networks
     - Visualization
-  github: https://github.com/karefyllidis/NN-SVG
-  demo: ""
+  github: "https://github.com/karefyllidis/NN-SVG"

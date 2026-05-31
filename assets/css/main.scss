@@ -503,6 +503,33 @@ body {
 
 /* Project cards */
 
+.project-group-title {
+  margin: var(--spacing-xl) 0 var(--spacing-lg);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.project-group-title:first-of-type {
+  margin-top: 0;
+}
+
+.project-period {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-bottom: 0.35rem;
+}
+
+.project-note {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
 .project-grid {
   display: grid;
   gap: var(--spacing-lg);

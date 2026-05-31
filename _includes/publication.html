@@ -5,13 +5,13 @@
   <p class="publication-title">
     {{ include.pub.title }}
     {% if include.pub.award %}
-      <span class="pub-award">(
+      <span class="pub-award">
         {% if include.pub.award_url %}
           <a href="{{ include.pub.award_url }}" target="_blank" rel="noopener noreferrer">{{ include.pub.award }}</a>
         {% else %}
           {{ include.pub.award }}
         {% endif %}
-      )</span>
+      </span>
     {% endif %}
   </p>
   <p class="publication-meta pub-authors">

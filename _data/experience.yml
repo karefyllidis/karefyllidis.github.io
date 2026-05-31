@@ -12,7 +12,7 @@
   org: "University of Oxford, Dept. of Engineering Science"
   period: "Sep 2024 – Sep 2025"
   url: "https://eng.ox.ac.uk"
-  summary: "Independent research parallel to industry role."
+  summary: "Continuing research on turbomachinery aerodynamics and scientific ML alongside the Coolbrook industry role; developed the HydrAI proprietary framework and extended Oxford's in-house meanline toolchain."
   highlights:
     - "Built proprietary HydrAI scientific ML framework (Cantera chemistry, PINN/RNN, symbolic regression, CFD coupling)."
     - "Extended in-house multi-stage aerodynamics meanline code with reacting-flow chemistry and holdout-validated surrogates."
@@ -39,5 +39,3 @@
   period: "Sep 2016 – Jun 2017"
   url: "https://www.surrey.ac.uk/surrey-space-centre"
   summary: "BEng thesis and propulsion engineering for the AAReST spacecraft with Caltech and NASA JPL."
-  highlights:
-    - "Delivered a bespoke micro-propulsion unit following architecture and material trade studies."

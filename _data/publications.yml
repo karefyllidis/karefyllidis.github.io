@@ -71,6 +71,8 @@
     - name: "Harri Johannesdahl"
   venue: "Journal of the Global Power and Propulsion Society"
   date: "2022"
+  doi: "10.33737/jgpps/150550"
+  url: "https://doi.org/10.33737/jgpps/150550"
   abstract: "Introduces a regenerative turbo-reactor concept to replace gas-fired radiant furnaces, achieving multistage heating within a compact toroidal vaneless configuration."
 
 - journal_short: "Turbo Expo"
@@ -84,3 +86,5 @@
     - name: "Harri Johannesdahl"
   venue: "Turbo Expo: Power for Land, Sea, and Air"
   date: "2022"
+  doi: "10.1115/GT2022-80698"
+  url: "https://doi.org/10.1115/GT2022-80698"

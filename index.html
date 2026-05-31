@@ -69,7 +69,7 @@ layout: default
       {% endfor %}
     </div>
 
-    <h2 class="subsection-title">Education</h2>
+    <h2 class="subsection-title" id="education">Education</h2>
     <ul class="education-list">
       {% for edu in site.data.education %}
         <li>
@@ -86,7 +86,7 @@ layout: default
       {% endfor %}
     </ul>
 
-    <h2 class="subsection-title">Awards</h2>
+    <h2 class="subsection-title" id="awards">Awards</h2>
     <ul class="awards-list">
       {% for award in site.data.awards %}
         <li>
@@ -126,16 +126,12 @@ layout: default
     </div>
 
     {% assign industry_projects = site.data.projects | where: "category", "industry" %}
-    <h3 class="project-group-title">Industry & Applied Research</h3>
+    {% assign oss_projects = site.data.projects | where: "category", "open_source" %}
+    <h3 class="project-group-title">Industry, Applied Research & Open Source</h3>
     <div class="project-grid">
       {% for project in industry_projects %}
         {% include project-card.html project=project %}
       {% endfor %}
-    </div>
-
-    {% assign oss_projects = site.data.projects | where: "category", "open_source" %}
-    <h3 class="project-group-title">Open Source</h3>
-    <div class="project-grid">
       {% for project in oss_projects %}
         {% include project-card.html project=project %}
       {% endfor %}
@@ -147,10 +143,5 @@ layout: default
   <div class="container">
     <h2 class="section-title">Contact</h2>
     <p>Based in Oxford, UK. Open to collaborations in turbomachinery, scientific ML, and industrial decarbonisation.</p>
-    <ul class="contact-list">
-      <li><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-      <li><a href="{{ site.social.github }}" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-      <li><a href="{{ site.social.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-    </ul>
   </div>
 </section>

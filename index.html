@@ -6,6 +6,7 @@ layout: default
   <div class="container">
     <h1>{{ site.author.name }}</h1>
     <p class="hero-role">{{ site.author.role }}</p>
+    <p class="hero-location">{{ site.author.location }}</p>
     <p class="tagline">{{ site.author.tagline }}</p>
   </div>
 </section>
@@ -16,7 +17,7 @@ layout: default
       {% if site.author.image != "" %}
         <img class="profile-photo" src="{{ site.author.image | relative_url }}" alt="{{ site.author.name }}">
       {% else %}
-        <div class="profile-photo profile-photo-placeholder" aria-hidden="true">{{ site.author.name | slice: 0 }}</div>
+        <div class="profile-photo profile-photo-placeholder" aria-hidden="true">NK</div>
       {% endif %}
       <div class="about-content">
         <h2>About Me</h2>
@@ -36,9 +37,73 @@ layout: default
   </div>
 </section>
 
-<section id="research" class="section section-alt">
+<section id="experience" class="section section-alt">
   <div class="container">
-    <h2>Selected Research Projects</h2>
+    <h2>Experience</h2>
+    <div class="timeline">
+      {% for job in site.data.experience %}
+        <article class="timeline-item">
+          <div class="timeline-header">
+            <div>
+              <h3>{{ job.role }}</h3>
+              <p class="timeline-org">
+                {% if job.url %}
+                  <a href="{{ job.url }}" target="_blank" rel="noopener noreferrer">{{ job.org }}</a>
+                {% else %}
+                  {{ job.org }}
+                {% endif %}
+              </p>
+            </div>
+            <span class="timeline-period">{{ job.period }}</span>
+          </div>
+          <p class="timeline-summary">{{ job.summary }}</p>
+          {% if job.highlights %}
+            <ul class="timeline-highlights">
+              {% for point in job.highlights %}
+                <li>{{ point }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+
+    <h2 class="subsection-title">Education</h2>
+    <ul class="education-list">
+      {% for edu in site.data.education %}
+        <li>
+          <span class="edu-period">{{ edu.period }}</span>
+          <span class="edu-degree">{{ edu.degree }}</span>
+          <span class="edu-institution">
+            {% if edu.url %}
+              <a href="{{ edu.url }}" target="_blank" rel="noopener noreferrer">{{ edu.institution }}</a>
+            {% else %}
+              {{ edu.institution }}
+            {% endif %}
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <h2 class="subsection-title">Awards</h2>
+    <ul class="awards-list">
+      {% for award in site.data.awards %}
+        <li>
+          {% if award.url %}
+            <a href="{{ award.url }}" target="_blank" rel="noopener noreferrer"><strong>{{ award.title }}</strong></a>
+          {% else %}
+            <strong>{{ award.title }}</strong>
+          {% endif %}
+          <span class="award-meta">({{ award.year }}) — {{ award.detail }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section id="research" class="section">
+  <div class="container">
+    <h2>Selected Research Highlights</h2>
     <ul class="research-list">
       {% for item in site.data.research_projects %}
         <li>
@@ -49,7 +114,7 @@ layout: default
   </div>
 </section>
 
-<section id="publications" class="section">
+<section id="publications" class="section section-alt">
   <div class="container">
     <h2>Selected Publications</h2>
     <ol class="publication-list">
@@ -60,9 +125,9 @@ layout: default
   </div>
 </section>
 
-<section id="projects" class="section section-alt">
+<section id="projects" class="section">
   <div class="container">
-    <h2>Projects</h2>
+    <h2>Open-Source Projects</h2>
     <div class="project-grid">
       {% for project in site.data.projects %}
         <article class="project-card">
@@ -89,10 +154,10 @@ layout: default
   </div>
 </section>
 
-<section id="contact" class="section">
+<section id="contact" class="section section-alt">
   <div class="container">
     <h2>Contact</h2>
-    <p>Open to collaborations in turbomachinery, CFD, and AI-accelerated engineering design.</p>
+    <p>Based in Oxford, UK. Open to collaborations in turbomachinery, scientific ML, and industrial decarbonisation.</p>
     <ul class="contact-list">
       <li><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
       <li><a href="{{ site.social.github }}" target="_blank" rel="noopener noreferrer">GitHub</a></li>

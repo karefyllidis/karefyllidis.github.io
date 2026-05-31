@@ -1,6 +1,6 @@
 - journal_short: "ASME JT"
   title: "A Novel Axial Energy-Imparting Turbomachine for High-Enthalpy Gas Heating: Robustness of the Aerodynamic Design"
-  award: "Best Paper Award"
+  award: "ASME John P. Davis Award, 2025 · Best Paper Award, 2024"
   authors:
     - name: "Nikolas Karefyllidis"
       self: true
@@ -9,10 +9,10 @@
     - name: "Liping Xu"
     - name: "Veli-Matti Purola"
   venue: "ASME Journal of Turbomachinery"
-  date: "Nov 2023"
+  date: "2023"
   doi: "10.1115/1.4063928"
   url: "https://doi.org/10.1115/1.4063928"
-  abstract: "Hard-to-abate industrial processes have long been considered technically challenging to decarbonize. A new class of energy-imparting turbomachines converts mechanical into internal energy instead of pressurizing the gas, enabling high-temperature gas heating for a variety of applications. This work demonstrates the capabilities of a novel, high-capacity, repeating-stage axial turbo-heater architecture and presents detailed numerical simulations confirming the robustness and flexibility of the aerodynamic design despite employing a uniform blade design."
+  abstract: "Demonstrates a novel repeating-stage axial turbo-heater architecture for high-temperature gas heating, presenting multistage CFD that confirms robust aerodynamic design despite uniform blade geometry and compact vaneless spacing."
   bibtex: |
     @article{Karefyllidis2023,
       author = {Karefyllidis, Nikolas and Rubini, Dylan and Rosic, Budimir and Xu, Liping and Purola, Veli-Matti},
@@ -27,7 +27,7 @@
 
 - journal_short: "GPPS"
   title: "Decarbonisation of High-Temperature Endothermic Chemical Reaction Processes using a Novel Turbomachine: Robustness of the Concept to Feed Variability"
-  award: "Best Paper Award"
+  award: "GPPS Best Paper Award, 2024"
   authors:
     - name: "Dylan Rubini"
     - name: "Nikolas Karefyllidis"
@@ -39,7 +39,7 @@
   date: "May 2024"
   doi: "10.33737/jgpps/185623"
   url: "https://doi.org/10.33737/jgpps/185623"
-  abstract: "This paper presents a revolutionary turbomachinery concept, referred to as the turbo-reactor, which has the potential to replace gas-fired radiant furnaces and decarbonise a wide range of hard-to-abate, high-temperature endothermic chemical reaction processes."
+  abstract: "Presents comprehensive analysis of turbo-reactor robustness and controllability across feeds, reaction stages, Mach regimes, and operating points for decarbonising high-temperature endothermic processes."
   bibtex: |
     @article{Rubini2024,
       author = {Rubini, Dylan and Karefyllidis, Nikolas and Rosic, Budimir and Xu, Liping and Nauha, Elina},
@@ -55,8 +55,9 @@
   authors:
     - name: "Nikolas Karefyllidis"
       self: true
-  venue: "University of Oxford (DPhil Thesis)"
+  venue: "University of Oxford (PhD Thesis)"
   date: "2024"
+  url: "https://ora.ox.ac.uk/objects/uuid:2479abe8-fefb-4574-b573-a309c278a614"
 
 - journal_short: "GPPS"
   title: "A New Robust Regenerative Turbo-Reactor Concept for Clean Hydrocarbon Cracking"
@@ -69,7 +70,7 @@
     - name: "Harri Johannesdahl"
   venue: "Journal of the Global Power and Propulsion Society"
   date: "2022"
-  abstract: "A novel regenerative turbo-reactor concept aims to replace the radiant section of a hydrocarbon cracking plant, driven by renewable electricity rather than combustion of natural gas."
+  abstract: "Introduces a regenerative turbo-reactor concept to replace gas-fired radiant furnaces, achieving multistage heating within a compact toroidal vaneless configuration."
 
 - journal_short: "Turbo Expo"
   title: "Accelerating the Development of a New Turbomachinery Concept in an Environment with Limited Resources and Experimental Data: Challenges"

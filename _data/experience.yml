@@ -1,0 +1,43 @@
+- role: "Senior Aerodynamics Engineer"
+  org: "Coolbrook Technologies"
+  period: "Aug 2023 – present"
+  url: "https://www.coolbrook.com"
+  summary: "PhD-to-product technical leadership on novel turbo-reactor/heater platforms for industrial decarbonisation."
+  highlights:
+    - "Led end-to-end aero-chemical design of next-generation axial turbo-reactors and pilot validation at a live petrochemical test site."
+    - "Built multi-stage meanline tools with integrated pyrolytic chemistry and PyTorch reduced-order surrogates validated against CFD and plant data."
+    - "Co-led product definition; drafted patents and led techno-commercial feasibility for furnace integrations."
+
+- role: "Visiting Researcher"
+  org: "University of Oxford, Dept. of Engineering Science"
+  period: "Sep 2024 – Sep 2025"
+  url: "https://eng.ox.ac.uk"
+  summary: "Independent research parallel to industry role."
+  highlights:
+    - "Built proprietary HydrAI scientific ML framework (Cantera chemistry, PINN/RNN, symbolic regression, CFD coupling)."
+    - "Extended in-house multi-stage aerodynamics meanline code with reacting-flow chemistry and holdout-validated surrogates."
+
+- role: "PhD Researcher"
+  org: "Oxford Thermofluids Institute"
+  period: "Sep 2019 – Aug 2023"
+  url: "https://oti.eng.ox.ac.uk"
+  summary: "Coolbrook-sponsored PhD on aerothermal design of novel turbomachines for hydrocarbon cracking."
+  highlights:
+    - "Designed axial, radial, mixed-flow, and regenerative turbo-heaters/reactors; ran TB-scale HPC campaigns on ARC, CSD3, and Rescale."
+    - "Developed hybrid turbulence modelling, LES workflows, and Bayesian-calibrated reduced-order aero-chemistry models."
+
+- role: "Testing Engineer"
+  org: "Ansys, Inc."
+  period: "Sep 2018 – Apr 2019"
+  url: "https://www.ansys.com"
+  summary: "Automated regression testing and QA for Ansys CFX and the turbomachinery toolchain."
+  highlights:
+    - "Led QA across CFX, Fluent, Mechanical, TurboGrid, and BladeGen; built bespoke test suites for new solver features."
+
+- role: "Spacecraft Propulsion Researcher"
+  org: "Surrey Space Centre (AAReST mission)"
+  period: "Sep 2016 – Jun 2017"
+  url: "https://www.surrey.ac.uk/surrey-space-centre"
+  summary: "BEng thesis and propulsion engineering for the AAReST spacecraft with Caltech and NASA JPL."
+  highlights:
+    - "Delivered a bespoke micro-propulsion unit following architecture and material trade studies."

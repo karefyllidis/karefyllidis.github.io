@@ -1,17 +1,17 @@
+- title: Black-Box Optimisation
+  description: GP–Bayesian optimisation benchmark on 8 unknown functions in the NeurIPS 2020 BBO challenge format.
+  tags:
+    - Python
+    - Bayesian Optimisation
+    - Jupyter
+  github: https://github.com/karefyllidis/black-box-optimization
+  demo: ""
+
 - title: NN-SVG
-  description: Publication-ready neural network architecture schematics. Forked from alexlenail/NN-SVG.
+  description: Publication-ready neural network architecture schematics (fork of alexlenail/NN-SVG).
   tags:
     - JavaScript
     - Neural Networks
     - Visualization
   github: https://github.com/karefyllidis/NN-SVG
-  demo: ""
-
-- title: Black-Box Optimization
-  description: Jupyter notebooks exploring black-box optimization methods and workflows.
-  tags:
-    - Python
-    - Jupyter
-    - Optimization
-  github: https://github.com/karefyllidis/black-box-optimization
   demo: ""

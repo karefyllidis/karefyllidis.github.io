@@ -1,15 +1,16 @@
 title: Nikolas Karefyllidis
-description: DPhil Engineering Science, University of Oxford
+description: Senior Aerodynamics Engineer · Oxford PhD · Turbomachinery & Scientific ML
 url: "https://karefyllidis.github.io"
 baseurl: ""
 
 author:
-  name: Nikolas Karefyllidis
-  role: "DPhil Engineering Science, University of Oxford"
-  email: nikolas.karefyllidis@eng.ox.ac.uk
+  name: Nikolas Karefyllidis, PhD
+  role: "Senior Aerodynamics Engineer, Coolbrook Technologies"
+  location: "Oxford, UK"
+  email: karefyllidis@gmail.com
   image: ""
-  bio: Multiphysics modelling engineer specialising in turbomachinery aerodynamics, high-enthalpy gas heating, and CFD. Passionate about developing advanced numerical solutions for complex engineering challenges in the energy transition — from novel turbo-reactors to AI-accelerated design workflows.
-  tagline: Aerodynamics · Turbomachinery · Multiphysics Modelling · HPC · AI & ML
+  bio: Oxford PhD engineer who builds multiphysics and scientific ML workflows for first-of-a-kind turbomachinery — closing the loop between HPC-scale simulation, reduced-order modelling, and pilot validation in industrial decarbonisation hardware.
+  tagline: Turbomachinery · Scientific ML · Multiphysics Modelling · CFD · HPC
 
 social:
   github: https://github.com/karefyllidis
@@ -18,15 +19,14 @@ social:
 resume_url: ""
 
 skills:
-  - Turbomachinery
-  - Aerodynamics
-  - Turbulence Modelling
-  - CFD
-  - Multiphysics Modelling
-  - HPC
   - Python
-  - AI & ML
-  - Optimization
+  - PyTorch
+  - CFD & Reacting Flows
+  - Turbomachinery
+  - Scientific ML & Surrogates
+  - HPC (CSD3, ARC, Slurm)
+  - ANSYS CFX / Fluent
+  - Bayesian Optimisation
 
 exclude:
   - Gemfile

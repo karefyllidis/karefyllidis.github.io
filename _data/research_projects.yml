@@ -1,8 +1,11 @@
-- title: "High-Enthalpy Turbo-Heater Aerodynamics"
-  description: "Investigating the robustness and flexibility of a novel axial energy-imparting turbomachine for high-temperature gas heating, including multistage CFD and design-space exploration for decarbonised chemical processes."
+- title: "Turbo-Reactor Pilot Validation"
+  description: "Led detailed 3D unsteady CFD for a first-of-a-kind turbo-reactor pilot at a petrochemical test site; validated against rig and plant data and reported offline/online divergence modes."
 
-- title: "Turbo-Reactor Concept Development"
-  description: "Contributing to the aerodynamic and aerothermal design of a regenerative turbo-reactor for clean hydrocarbon cracking, replacing gas-fired furnaces with electrically driven mechanical energy transfer."
+- title: "Multi-Stage Meanline & Aero-Chemistry Surrogates"
+  description: "Developed multi-stage meanline code with integrated pyrolytic reaction chemistry and PyTorch reduced-order models for rapid screening and multidisciplinary optimisation."
 
-- title: "Neural Surrogates & Black-Box Optimization"
-  description: "Exploring data-driven and optimization workflows to accelerate turbomachinery design and multiphysics modelling under limited experimental data."
+- title: "HPC Turbomachinery Simulation Campaigns"
+  description: "Designed ~1,000-core simulation campaigns across ARC, CSD3, and cloud (Rescale); built Python pipelines for TB-scale CFD post-processing and design-space screening."
+
+- title: "HydrAI Scientific ML (Proprietary)"
+  description: "Integrated Cantera detailed chemistry with PINN/RNN training and symbolic regression to recover compact governing structure, coupled back to CFD with holdout evaluation across operating conditions."

@@ -25,14 +25,14 @@ skills:
   - Python
   - PyTorch
   - MATLAB
-  - CFD & Reacting Flows
-  - Turbomachinery
-  - Scientific ML & Surrogates
-  - Monte Carlo UQ
-  - HPC (CSD3, ARC, Slurm)
+  - Fortran / OpenMPI
   - ANSYS CFX / Fluent
   - Cantera
+  - HPC (CSD3, ARC, Slurm)
   - Bayesian Optimisation
+  - Monte Carlo UQ
+  - Surrogate Modelling
+  - PINN / Symbolic Regression
 
 exclude:
   - Gemfile

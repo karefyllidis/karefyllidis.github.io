@@ -37,11 +37,11 @@
     - HPC (ARC, CSD3, Rescale)
 
 - category: phd
-  title: "Hybrid Spalart–Allmaras Turbulence Model"
+  title: "Scale-Adaptive Spalart–Allmaras Turbulence Model"
   period: "Oxford PhD"
-  description: "Developed a hybrid Spalart–Allmaras turbulence model variant in Oxford's in-house CFD solver — LES/URANS for high-speed turbomachinery flows. Calibrated model coefficients via Bayesian optimisation."
+  description: "Developed a hybrid LES/URANS SAS Spalart–Allmaras turbulence model variant in Oxford's in-house CFD solver — for high-speed turbomachinery flows. Calibrated model coefficients via Bayesian optimisation."
   tags:
-    - Spalart–Allmaras
+    - SAS Spalart–Allmaras
     - Hybrid LES / URANS
     - Bayesian Optimisation
 
@@ -61,18 +61,28 @@
   period: "Coolbrook Technologies"
   description: "Led 3D unsteady CFD for a first-of-a-kind turbo-reactor pilot at a live petrochemical test site; validated against rig and plant data."
   tags:
-    - ANSYS Fluent
+    - ANSYS Fluent/CFX
     - Pilot Validation
     - CFD Validation
 
 - category: industry
-  title: "New Multi-Stage Meanline Design Code"
+  title: "New Multi-Stage Meanline Design Code with Integrated Chemistry"
   period: "Oxford (Visiting Researcher)"
-  description: "Extended in-house multi-stage aerodynamics meanline code with integrated Cantera reacting-flow chemistry — holdout-validated surrogates for rapid performance screening."
+  description: "Extended in-house multi-stage aerodynamics meanline code with integrated Cantera reacting-flow chemistry for rapid performance screening."
   tags:
     - Meanline Methods
     - Cantera
     - Performance Screening
+
+- category: industry
+  title: "Full-Engine Uncertainty Quantification"
+  period: "Coolbrook Technologies"
+  description: "Built a Monte Carlo UQ framework propagating uncertainty across coupled mechanical, process, and controls subsystems of the turbo-reactor — quantifying performance sensitivity across the full operating envelope."
+  tags:
+    - Monte Carlo UQ
+    - Multiphysics
+    - Python
+
 
 - category: open_source
   title: "Bayesian Optimisation of Unknown Functions — NeurIPS 2020 BBO"
@@ -81,5 +91,4 @@
   tags:
     - Python
     - Bayesian Optimisation
-    - Jupyter
   github: "https://github.com/karefyllidis/black-box-optimization"

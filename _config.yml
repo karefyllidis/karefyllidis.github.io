@@ -8,7 +8,7 @@ author:
   role: "Senior Aerodynamics Engineer, Coolbrook Technologies"
   location: "Oxford, UK"
   email: karefyllidis@gmail.com
-  image: ""
+  image: "/assets/images/headshot.jpg"
   bio: Oxford PhD engineer and 2025 recipient of the ASME IGTI John P. Davis Award. Builds multiphysics and scientific ML workflows for first-of-a-kind turbomachinery — closing the loop between HPC-scale simulation, reduced-order modelling, and pilot validation in industrial decarbonisation hardware.
   tagline: Turbomachinery · Scientific ML · Multiphysics Modelling · CFD · HPC
   featured_award:

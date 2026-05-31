@@ -1,0 +1,31 @@
+title: Nikolas Karefyllidis
+description: DPhil Engineering Science, University of Oxford
+url: "https://karefyllidis.github.io"
+baseurl: ""
+
+author:
+  name: Nikolas Karefyllidis
+  email: nikolas.karefyllidis@eng.ox.ac.uk
+  bio: Aerospace Engineering PhD (Oxford). Research in turbomachinery aerodynamics, high-enthalpy gas heating, multiphysics modelling, and CFD for next-generation energy and propulsion systems.
+  tagline: Aerodynamics · Turbomachinery · Multiphysics Modelling · HPC · AI & ML
+
+social:
+  github: https://github.com/karefyllidis
+  linkedin: https://www.linkedin.com/in/karefyllidis/
+
+skills:
+  - Turbomachinery
+  - Aerodynamics
+  - Turbulence Modelling
+  - CFD
+  - Multiphysics Modelling
+  - HPC
+  - Python
+  - AI & ML
+  - Optimization
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

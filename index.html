@@ -1,0 +1,98 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="container">
+    <h1>{{ site.author.name }}</h1>
+    <p class="tagline">{{ site.author.tagline }}</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#publications">View Publications</a>
+      <a class="btn btn-secondary" href="#contact">Get in Touch</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container">
+    <h2>About</h2>
+    <p>{{ site.author.bio }}</p>
+  </div>
+</section>
+
+<section id="publications" class="section section-alt">
+  <div class="container">
+    <h2>Publications</h2>
+    <ol class="publication-list">
+      {% for pub in site.data.publications %}
+        <li class="publication-item">
+          <p class="publication-title">{{ pub.title }}</p>
+          <p class="publication-meta">{{ pub.authors }}</p>
+          <p class="publication-meta"><em>{{ pub.venue }}</em>, {{ pub.year }}{% if pub.citations > 0 %} · {{ pub.citations }} citations{% endif %}</p>
+        </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      {% for project in site.data.projects %}
+        <article class="project-card">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.description }}</p>
+          {% if project.tags %}
+            <ul class="tag-list">
+              {% for tag in project.tags %}
+                <li>{{ tag }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+          <div class="project-links">
+            {% if project.github %}
+              <a href="{{ project.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+            {% endif %}
+            {% if project.demo %}
+              <a href="{{ project.demo }}" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            {% endif %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section section-alt">
+  <div class="container">
+    <h2>Skills</h2>
+    <ul class="skill-list">
+      {% for skill in site.skills %}
+        <li>{{ skill }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container">
+    <h2>Contact</h2>
+    <p>Feel free to reach out — I'm always open to new opportunities and collaborations.</p>
+    <ul class="contact-list">
+      <li>
+        <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+      </li>
+      {% if site.social.github %}
+        <li>
+          <a href="{{ site.social.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </li>
+      {% endif %}
+      {% if site.social.linkedin %}
+        <li>
+          <a href="{{ site.social.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </li>
+      {% endif %}
+    </ul>
+  </div>
+</section>

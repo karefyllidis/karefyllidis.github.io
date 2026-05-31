@@ -14,7 +14,7 @@ layout: default
       {% endif %}
     </div>
     {% if site.author.image != "" %}
-      <img class="hero-photo" src="{{ site.author.image | relative_url }}" alt="{{ site.author.name }}" width="180" height="180">
+      <img class="hero-photo" src="{{ site.author.image | relative_url }}" alt="{{ site.author.name }}" width="200" height="200">
     {% endif %}
   </div>
 </section>
@@ -26,7 +26,7 @@ layout: default
         <h2 class="section-title">About</h2>
         <p>{{ site.author.bio }}</p>
         <ul class="contact-inline">
-          <li><a href="mailto:{{ site.author.email }}">Email</a></li>
+          <li><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
           <li><a href="{{ site.social.github }}" target="_blank" rel="noopener noreferrer">GitHub</a></li>
           <li><a href="{{ site.social.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
         </ul>
@@ -162,5 +162,6 @@ layout: default
   <div class="container">
     <h2 class="section-title">Contact</h2>
     <p>Based in Oxford, UK. Open to collaborations in turbomachinery, scientific ML, and industrial decarbonisation.</p>
+    <p class="contact-email"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
   </div>
 </section>

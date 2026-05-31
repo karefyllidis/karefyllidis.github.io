@@ -140,8 +140,8 @@ a {
 }
 
 .hero-photo {
-  width: 168px;
-  height: 168px;
+  width: 192px;
+  height: 192px;
   border-radius: var(--radius);
   object-fit: cover;
   border: 1px solid var(--color-border);
@@ -157,8 +157,8 @@ a {
   }
 
   .hero-photo {
-    width: 120px;
-    height: 120px;
+    width: 128px;
+    height: 128px;
   }
 }
 
@@ -767,6 +767,21 @@ a {
 }
 
 .contact-list a:hover {
+  text-decoration: underline;
+}
+
+.contact-email {
+  margin: 0.75rem 0 0;
+}
+
+.contact-email a {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9375rem;
+}
+
+.contact-email a:hover {
   text-decoration: underline;
 }
 

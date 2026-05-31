@@ -1,0 +1,68 @@
+---
+description: Rules for editing Nikolas Karefyllidis's portfolio site. Apply to all edits of _data/*.yml, _config.yml, index.html, _includes/, and assets/css/.
+globs: ["_data/**", "_config.yml", "index.html", "_includes/**", "assets/css/**"]
+alwaysApply: true
+---
+
+# Portfolio editing rules
+
+## Ground truth
+
+All factual content must be traceable to one of these files:
+- `/Users/nikolaskarefyllidis/Desktop/50_CVs/01 CVs & Cover letters/0000_Rules_and_Skills/CLAUDE_PROFILE.md`
+- `/Users/nikolaskarefyllidis/Desktop/50_CVs/01 CVs & Cover letters/0000_Rules_and_Skills/00_KNOWLEDGE_BASE.md`
+
+Read them before writing or editing any content. If a claim cannot be found in either file, do not include it.
+
+## Hallucination rules
+
+- Do not invent technical phrases, method names, or outcomes not present in the ground truth.
+- Do not attribute tools or methods to the wrong role or project.
+- Do not merge separate projects. HydrAI and the Oxford meanline project are explicitly separate — never describe HydrAI as built on or integrated into the meanline stack.
+- Do not overstate seniority, scope, or sole ownership of work beyond what the ground truth states.
+- If unsure whether a claim is confirmed, omit it and flag it in a comment.
+
+## HydrAI — hard rules
+
+- HydrAI is **proprietary**. Never add a GitHub link or suggest it is open source.
+- HydrAI description must not mention "meanline", "meanline stack", or "meanline aerodynamics".
+- Correct framing: Cantera detailed chemistry + PINN/RNN + symbolic regression (SymPy/PyTorch) + CFD coupling + holdout evaluation.
+- The `proprietary: true` flag in `_data/projects.yml` must never be removed.
+
+## Separation of projects
+
+These are distinct and must never be merged in descriptions or highlights:
+- HydrAI (scientific ML framework) — Visiting Researcher role
+- Oxford meanline code (multi-stage aerodynamics tool with Cantera chemistry) — separate bullet in Visiting Researcher, or separate project card
+- Turbo-Reactor Pilot Validation (3D unsteady CFD, plant validation) — Coolbrook role
+
+## Public code
+
+Only one public GitHub repo exists: `github.com/karefyllidis/black-box-optimization`. Do not add GitHub links to any other project.
+
+## Content constraints
+
+- Do not fabricate publications, employers, awards, or degrees.
+- Do not add a military/Raider Forces entry — it is not present on the portfolio by design.
+- Do not add salary, filter rules, or application history anywhere on the site.
+- The contact section contains only a one-line location/collaboration statement — no duplicate link lists.
+
+## Style constraints
+
+- Tone: professional academic/engineering portfolio. Not generic AI portfolio template language.
+- No "passionate about", "cutting-edge", "state-of-the-art", "transformational".
+- No "responsible for" — use active verbs (led, built, developed, ran, designed).
+- No "supported" or "contributed to" — these strip agency.
+- No invented CV-speak: "structured evidence frameworks", "deployment-ready outcomes", "disconnected streams".
+
+## Jekyll / file rules
+
+- Do not edit `vendor/`, `Gemfile.lock`, or any built output in `_site/`.
+- Do not add new gem dependencies without checking the GitHub Pages whitelist.
+- SCSS front matter (`---`) must remain at the top of `assets/css/main.scss`.
+- All new images go in `assets/images/`. Use `loading="lazy"` on all `<img>` tags except the hero photo.
+- Do not add JavaScript files or inline `<script>` blocks beyond the font-loading `onload` attribute already in `head.html`.
+
+## Minimal diff principle
+
+Prefer the smallest change that achieves the goal. Do not rewrite sections that are not broken. Do not rename files or restructure the Jekyll layout without an explicit instruction.

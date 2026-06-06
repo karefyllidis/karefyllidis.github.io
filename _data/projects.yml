@@ -1,7 +1,7 @@
 - category: phd
   title: "Novel Turbo-Heater & Turbo-Reactor Aerodynamics"
   period: "Oxford PhD, 2019–2024"
-  description: "Aerothermal design of axial, radial, mixed-flow, and regenerative turbo-heaters/reactors for hydrocarbon cracking — the core DPhil thesis on high-enthalpy gas heating for industrial decarbonisation."
+  description: "Aerothermal design of axial, radial, mixed-flow, and regenerative turbo-heaters/reactors for hydrocarbon cracking — the core DPhil thesis on high-enthalpy gas heating for industrial decarbonisation. The PhD-phase aerothermal work directly underpinned the next-generation, larger-scale turbo-reactor platform later brought to industrial pilot — a continuous arc from first-principles research to commercial deployment."
   tags:
     - Turbomachinery
     - Supersonic Flows
@@ -53,6 +53,30 @@
   link_url: "https://ora.ox.ac.uk/objects/uuid:2479abe8-fefb-4574-b573-a309c278a614"
 
 - category: industry
+  title: "Next-Generation Large-Scale Turbo-Reactor — End-to-End Technical Lead"
+  period: "Coolbrook Technologies"
+  description: "End-to-end technical lead on next-generation, larger-scale turbo-reactor platform: aerothermal design (axial/mixed-flow stages); multi-stage meanline toolchain with integrated Cantera reacting-flow chemistry for rapid performance screening; TB-scale HPC CFD campaigns (ANSYS Fluent/CFX, ARC, CSD3); and holdout-validated neural-network aero-chemistry surrogates (RNN/MLP) — 500× faster design iteration, calibrated against high-fidelity CFD and live pilot data. Delivered full pilot readiness evidence for the commercial investment decision; bridged design, simulation, and deployment from first-principles aerothermal analysis through live plant validation."
+  tags:
+    - Turbomachinery Design
+    - Meanline / Cantera Chemistry
+    - HPC CFD (ANSYS Fluent/CFX)
+    - Neural-Network Surrogates
+    - Pilot Validation
+    - End-to-End Technical Lead
+  proprietary: true
+
+- category: industry
+  title: "Operator Scoping & Deployment Workflows"
+  period: "Coolbrook Technologies"
+  description: "Embedded with major petrochemical operators to scope deployments — visited sites, mapped plant constraints and data gaps, and built structured Python/MATLAB workflows that integrated inconsistent rig, plant, and simulation data into concise go/no-go evidence for pilot and investment decisions. Workflows adopted team-wide and used in the commercial product launch."
+  tags:
+    - Operator Engagement
+    - Data Integration
+    - Decision Support
+    - Deployment Readiness
+  proprietary: true
+
+- category: industry
   title: "HydrAI"
   period: "Oxford (Visiting Researcher)"
   description: "Proprietary scientific ML workspace comprising GeneralizedPFR (Cantera PFR sweep engine, HPC/SLURM, multi-feedstock training data) and symCrack (ProfileRNN, MLP, PI-RNN, PySR/SymTorch symbolic regression on pyrolysis chemistry), with PINN/RNN training and symbolic regression (SymPy/PyTorch) coupled to CFD and per-output holdout evaluation across operating conditions."
@@ -68,7 +92,7 @@
 - category: industry
   title: "Turbo-Reactor Pilot Validation"
   period: "Coolbrook Technologies"
-  description: "Led 3D unsteady CFD for a first-of-a-kind turbo-reactor pilot at a live petrochemical test site; validated against rig and plant data."
+  description: "Validated the first-of-a-kind turbo-reactor against live rig and plant data — led 3D unsteady CFD, reconciled measurement conventions across instrumentation sources, and quantified model-to-plant agreement to confirm the design performed as predicted under real operating conditions."
   tags:
     - ANSYS Fluent/CFX
     - Pilot Validation
@@ -86,7 +110,7 @@
 - category: industry
   title: "Full-Engine Uncertainty Quantification"
   period: "Coolbrook Technologies"
-  description: "Built a Monte Carlo UQ framework propagating uncertainty across coupled mechanical, process, and controls subsystems of the turbo-reactor — quantifying performance sensitivity across the full operating envelope."
+  description: "Monte Carlo UQ framework propagating uncertainty across coupled mechanical, process, and controls subsystems of the turbo-reactor — quantifying performance sensitivity across the full operating envelope. Built to provide leadership with explicit uncertainty bands rather than single-point estimates for pilot go/no-go decisions."
   tags:
     - Monte Carlo UQ
     - Multiphysics

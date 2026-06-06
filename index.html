@@ -118,6 +118,19 @@ layout: default
         </li>
       {% endfor %}
     </ul>
+
+    <h2 class="subsection-title" id="patents">Patents</h2>
+    <ul class="awards-list">
+      {% for patent in site.data.patents %}
+        <li>
+          <strong>{{ patent.title }}</strong>
+          <span class="award-meta">{{ patent.status }} · {{ patent.assignee }} · {{ patent.year }}</span>
+          {% if patent.description %}
+            <span class="award-meta">{{ patent.description }}</span>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
   </div>
 </section>
 
@@ -161,7 +174,7 @@ layout: default
 <section id="contact" class="section">
   <div class="container">
     <h2 class="section-title">Contact</h2>
-    <p>Based in Oxford, UK. Open to collaborations in turbomachinery, scientific ML, and industrial decarbonisation.</p>
+    <p>Based in Oxford, UK. Open to roles and collaborations in data science, scientific ML, AI/ML deployment, and operational data strategy.</p>
     <p class="contact-email"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
   </div>
 </section>

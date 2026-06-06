@@ -17,7 +17,9 @@
     - Supersonic Rotors
     - Method of Characteristics
     - Turbomachinery Design
-
+  link_label: "PhD Thesis"
+  link_url: "https://ora.ox.ac.uk/objects/uuid:2479abe8-fefb-4574-b573-a309c278a614"
+  
 - category: phd
   title: "Reduced-Order Aero-Chemistry Models"
   period: "Oxford PhD"
@@ -26,6 +28,8 @@
     - Cantera
     - Surrogate Modelling
     - Reacting Flows
+  link_label: "PhD Thesis"
+  link_url: "https://ora.ox.ac.uk/objects/uuid:2479abe8-fefb-4574-b573-a309c278a614"
 
 - category: phd
   title: "In-House Parallel CFD & LES"
@@ -35,6 +39,7 @@
     - Fortran / OpenMPI
     - LES
     - HPC (ARC, CSD3, Rescale)
+  link_label: "PhD Thesis"
 
 - category: phd
   title: "Scale-Adaptive Spalart–Allmaras Turbulence Model"
@@ -44,6 +49,8 @@
     - SAS Spalart–Allmaras
     - Hybrid LES / URANS
     - Bayesian Optimisation
+  link_label: "PhD Thesis"
+  link_url: "https://ora.ox.ac.uk/objects/uuid:2479abe8-fefb-4574-b573-a309c278a614"
 
 - category: industry
   title: "HydrAI"
@@ -56,6 +63,7 @@
     - Cantera
     - HPC / SLURM
   proprietary: true
+
 
 - category: industry
   title: "Turbo-Reactor Pilot Validation"

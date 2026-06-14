@@ -1,16 +1,16 @@
 title: Nikolas Karefyllidis
-description: Oxford PhD · Data Science · Scientific ML · Turbomachinery · CFD · Data Integration · Deployment · Decision Support
+description: Senior Aerodynamics Engineer · Oxford PhD · Turbomachinery · Scientific ML · Energy Transition · PhD-to-Product
 url: "https://karefyllidis.github.io"
 baseurl: ""
 
 author:
   name: Nikolas Karefyllidis, PhD
-  role: "Senior Engineer, Coolbrook Technologies"
+  role: "Senior Aerodynamics Engineer, Coolbrook Technologies"
   location: "Oxford, UK"
   email: karefyllidis@gmail.com
   image: "/assets/images/headshot.jpg"
-  bio: Oxford PhD engineer and 2025 recipient of the ASME IGTI John P. Davis Award. Builds scientific ML and data workflows that turn fragmented operational data into decisions — Python and PyTorch pipelines, neural-network surrogates, Monte Carlo uncertainty quantification, and decision-support tools validated on TB-scale datasets and live industrial deployments. PhD and industry background in turbomachinery aerodynamics and TB-scale CFD (ANSYS Fluent/CFX, HPC) — the domain where much of the ML and data-integration work was built and validated. At Coolbrook, end-to-end technical lead integrating rig, plant, and simulation data into go/no-go evidence for pilot and investment decisions with major operators. Experience spans proprietary ML frameworks (HydrAI), user-facing deployment in high-stakes environments, and translating technical analysis into what leadership and partners act on.
-  tagline: Data Science · Scientific ML · Turbomachinery · CFD · Data Integration · Decision Support · Deployment
+  bio: "Oxford PhD engineer and 2025 ASME IGTI John P. Davis Award recipient. Industry-sponsored PhD-to-product work on first-of-a-kind turbo-reactor technology at Coolbrook — from thesis and large-scale simulation through live pilot validation, patents on next-generation platforms, and co-led product definition. Pre-feasibility work with major petrochemical partners ahead of pilot scale-up. Parallel Oxford research on proprietary scientific ML (HydrAI)."
+  tagline: Turbomachinery · Scientific ML · Energy Transition · PhD-to-Product · CFD · HPC
   featured_award:
     title: "ASME IGTI John P. Davis Award, 2025"
     url: "https://www.asme.org/about-asme/honors-awards/unit-awards/john-p-davis-gas-turbine-applications-paper-award"
@@ -24,19 +24,20 @@ resume_url: ""
 skills:
   - Python
   - PyTorch
-  - Data Integration & Pipelines
-  - Scientific ML
-  - Surrogate Modelling / Neural Networks
+  - MATLAB
+  - Fortran / OpenMPI
+  - Scientific ML & Surrogates
   - Monte Carlo UQ
   - Bayesian Optimisation
-  - MATLAB
-  - Decision Support Workflows
-  - Operator Engagement & Scoping
-  - PINN / Symbolic Regression
-  - Turbomachinery / CFD (ANSYS Fluent/CFX)
-  - HPC (CSD3, ARC, Slurm)
+  - CFD & Reacting Flows
+  - Turbomachinery
+  - ANSYS CFX / Fluent
   - Cantera
-  - Fortran / OpenMPI
+  - HPC (CSD3, ARC, Slurm)
+  - PINN / Symbolic Regression
+  - Multiphysics Modelling
+  - Product Definition
+  - Patent Development
 
 exclude:
   - Gemfile

@@ -1,11 +1,11 @@
-- role: "Senior Engineer"
+- role: "Senior Aerodynamics Engineer"
   org: "Coolbrook Technologies"
   period: "Aug 2023 – present"
   url: "https://www.coolbrook.com"
-  summary: "Technical lead building data and ML workflows for industrial deployment — Python/MATLAB pipelines integrating disconnected rig, plant, and simulation sources; neural-network surrogate models and Monte Carlo UQ for decision support; TB-scale turbomachinery CFD (ANSYS Fluent/CFX) for first-of-a-kind pilot validation; on-site operator scoping and go/no-go evidence for commercial investment decisions."
+  summary: "PhD-to-product work on novel turbo-reactor platforms — aerothermal design, TB-scale HPC CFD, reduced-order and neural-network surrogates, Monte Carlo UQ, and first-of-a-kind pilot validation against live plant data."
   highlights:
-    - "Built Python/MATLAB workflows integrating rig, plant, and simulation data from disconnected sources; evidence packages adopted across the engineering team and used in commercial product launch."
-    - "Scoped deployments with major petrochemical operators on-site; mapped plant constraints and data gaps into structured pre-feasibility assessments driving pilot go/no-go decisions."
+    - "Built Python/MATLAB pipelines integrating rig, plant, and simulation measurements for pilot analysis and design reviews."
+    - "Ran pre-feasibility with major petrochemical partners on-site — mapped plant constraints and data availability ahead of pilot scale-up."
     - "Developed reduced-order aero-chemistry surrogates — including neural-network (RNN/MLP) models — validated against high-fidelity CFD and pilot test results."
     - "Led end-to-end 3D unsteady CFD for a first-of-a-kind turbomachinery pilot at a live petrochemical test site; validated against real plant data."
     - "Co-led product definition with Product Manager; drafted patents on next-generation turbo-reactor platforms."
@@ -14,9 +14,9 @@
   org: "University of Oxford, Dept. of Engineering Science"
   period: "Sep 2024 – Sep 2025"
   url: "https://eng.ox.ac.uk"
-  summary: "Built the HydrAI scientific ML framework (neural-network surrogates, symbolic regression, PyTorch) and extended in-house toolchain with reacting-flow chemistry — both feeding directly into industrial product and deployment decisions at Coolbrook."
+  summary: "Research on turbomachinery aerodynamics and scientific ML alongside the Coolbrook industry role — HydrAI proprietary framework and extended in-house meanline toolchain with reacting-flow chemistry."
   highlights:
-    - "Built proprietary HydrAI scientific ML framework (Cantera chemistry, PINN/RNN, symbolic regression, CFD coupling)."
+    - "Built proprietary HydrAI scientific ML workspace (GeneralizedPFR data pipeline, NESP neuro-symbolic pyrolysis surrogates — PINN/PI-RNN, PySR/SymTorch rate closures, CFD coupling)."
     - "Extended in-house multi-stage aerodynamics meanline code with reacting-flow chemistry and holdout-validated surrogates."
     - "Co-supervised a DPhil researcher on experimental supersonic aerodynamics and heat transfer."
 

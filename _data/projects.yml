@@ -10,16 +10,15 @@
   link_url: "https://ora.ox.ac.uk/objects/uuid:2479abe8-fefb-4574-b573-a309c278a614"
 
 - category: phd
-  title: "Supersonic Rotor & Stator Design Tools"
+  title: "PhD Simulation & Design Stack"
   period: "Oxford PhD"
-  description: "Fast blade-row design codes using the method of characteristics to profile supersonic rotors and stators for ultra-high-loading energy-imparting stages — maximising thermal power transfer in compact turbo-heater architectures."
+  description: "In-house Fortran/MPI CFD with parallel LES on ARC and CSD3; hybrid SAS Spalart–Allmaras turbulence model calibrated via Bayesian optimisation; supersonic rotor and stator design codes using the method of characteristics for ultra-high-loading stages."
   tags:
-    - Supersonic Rotors
+    - Fortran / OpenMPI
+    - LES
+    - HPC (ARC, CSD3, Rescale)
     - Method of Characteristics
-    - Turbomachinery Design
-  link_label: "PhD Thesis"
-  link_url: "https://ora.ox.ac.uk/objects/uuid:2479abe8-fefb-4574-b573-a309c278a614"
-  
+
 - category: phd
   title: "Reduced-Order Aero-Chemistry Models"
   period: "Oxford PhD"
@@ -28,94 +27,26 @@
     - Cantera
     - Surrogate Modelling
     - Reacting Flows
-  link_label: "PhD Thesis"
-  link_url: "https://ora.ox.ac.uk/objects/uuid:2479abe8-fefb-4574-b573-a309c278a614"
 
-- category: phd
-  title: "In-House Parallel CFD & LES"
-  period: "Oxford PhD"
-  description: "Extended Oxford in-house Fortran/MPI CFD with MPI parallelisation; ran massively parallel LES on ARC and CSD3 and built Python pipelines for TB-scale post-processing and design-space screening."
-  tags:
-    - Fortran / OpenMPI
-    - LES
-    - HPC (ARC, CSD3, Rescale)
-  link_label: "PhD Thesis"
-  link_url: "https://ora.ox.ac.uk/objects/uuid:2479abe8-fefb-4574-b573-a309c278a614"
-
-- category: phd
-  title: "Scale-Adaptive Spalart–Allmaras Turbulence Model"
-  period: "Oxford PhD"
-  description: "Developed a hybrid LES/URANS SAS Spalart–Allmaras turbulence model variant in Oxford's in-house CFD solver — for high-speed turbomachinery flows. Calibrated model coefficients via Bayesian optimisation."
-  tags:
-    - SAS Spalart–Allmaras
-    - Hybrid LES / URANS
-    - Bayesian Optimisation
-  link_label: "PhD Thesis"
-  link_url: "https://ora.ox.ac.uk/objects/uuid:2479abe8-fefb-4574-b573-a309c278a614"
-
-- category: industry
-  title: "Next-Generation Large-Scale Turbo-Reactor Platform"
-  period: "Coolbrook Technologies"
-  description: "Technical lead on next-generation turbo-reactor platform — aerothermal design, TB-scale HPC CFD (ANSYS Fluent/CFX, ARC, CSD3), holdout-validated neural-network aero-chemistry surrogates, and validation against high-fidelity CFD and live pilot data."
-  tags:
-    - Turbomachinery Design
-    - HPC CFD (ANSYS Fluent/CFX)
-    - Neural-Network Surrogates
-    - Pilot Validation
-  proprietary: true
-
-- category: industry
-  title: "Customer Pre-Feasibility & Plant Integration"
-  period: "Coolbrook Technologies"
-  description: "On-site pre-feasibility with major petrochemical partners — mapped plant constraints and data availability, and built Python/MATLAB pipelines integrating rig, plant, and simulation results for pilot scale-up planning."
-  tags:
-    - Python
-    - MATLAB
-    - Pre-Feasibility
-    - Plant Integration
-  proprietary: true
-
-- category: industry
+- category: oxford
   title: "HydrAI"
   period: "Oxford (Visiting Researcher)"
-  description: "Proprietary scientific ML workspace — GeneralizedPFR (Cantera PFR training-data pipeline, HPC/SLURM, multi-feedstock sweeps) and NESP (Neuro-Symbolic Pyrolysis: physics-informed profile surrogates RNN/MLP/PI-RNN with optional PySR distillation to symbolic Y_lump laws; PINN rate closures τ/Y_lump/combined distilled to symbolic R_* source terms via SymTorch). PINN/RNN training, symbolic regression (SymPy/PyTorch), per-output holdout evaluation; offline CFD source terms under development."
+  description: "Proprietary scientific ML workspace — GeneralizedPFR (Cantera PFR training-data pipeline, HPC/SLURM) and NESP (neuro-symbolic pyrolysis surrogates and symbolic rate closures from physics-informed neural networks). PINN/RNN training, symbolic regression, and per-output holdout evaluation."
   tags:
-    - Python
     - PyTorch
     - PINN / RNN
-    - PySR / SymTorch
     - Symbolic Regression
     - Cantera
-    - HPC / SLURM
   proprietary: true
 
-- category: industry
-  title: "Turbo-Reactor Pilot Validation"
-  period: "Coolbrook Technologies"
-  description: "Validated the first-of-a-kind turbo-reactor against live rig and plant data — led 3D unsteady CFD, reconciled measurement conventions across instrumentation sources, and quantified model-to-plant agreement to confirm the design performed as predicted under real operating conditions."
-  tags:
-    - ANSYS Fluent/CFX
-    - Pilot Validation
-    - CFD Validation
-
-- category: industry
-  title: "New Multi-Stage Meanline Design Code with Integrated Chemistry"
+- category: oxford
+  title: "Multi-Stage Meanline Design Code with Integrated Chemistry"
   period: "Oxford (Visiting Researcher)"
   description: "Extended in-house multi-stage aerodynamics meanline code with integrated Cantera reacting-flow chemistry for rapid performance screening."
   tags:
     - Meanline Methods
     - Cantera
     - Performance Screening
-
-- category: industry
-  title: "Full-Engine Uncertainty Quantification"
-  period: "Coolbrook Technologies"
-  description: "Monte Carlo UQ framework propagating uncertainty across coupled mechanical, process, and controls subsystems of the turbo-reactor — quantifying performance sensitivity across the full operating envelope."
-  tags:
-    - Monte Carlo UQ
-    - Multiphysics
-    - Python
-
 
 - category: open_source
   title: "Bayesian Optimisation of Unknown Functions — NeurIPS 2020 BBO"

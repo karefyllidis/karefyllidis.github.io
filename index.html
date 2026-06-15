@@ -157,13 +157,17 @@ layout: default
       {% endfor %}
     </div>
 
-    {% assign industry_projects = site.data.projects | where: "category", "industry" %}
-    {% assign oss_projects = site.data.projects | where: "category", "open_source" %}
-    <h3 class="project-group-title">Industry, Applied Research & Open Source</h3>
+    {% assign oxford_projects = site.data.projects | where: "category", "oxford" %}
+    <h3 class="project-group-title">University of Oxford — Applied Research</h3>
     <div class="project-grid">
-      {% for project in industry_projects %}
+      {% for project in oxford_projects %}
         {% include project-card.html project=project %}
       {% endfor %}
+    </div>
+
+    {% assign oss_projects = site.data.projects | where: "category", "open_source" %}
+    <h3 class="project-group-title">Open Source</h3>
+    <div class="project-grid">
       {% for project in oss_projects %}
         {% include project-card.html project=project %}
       {% endfor %}
@@ -174,7 +178,7 @@ layout: default
 <section id="contact" class="section">
   <div class="container">
     <h2 class="section-title">Contact</h2>
-    <p>Based in Oxford, UK. Open to collaborations in turbomachinery, scientific ML, industrial decarbonisation, and technical advisory on energy-transition technology.</p>
+    <p>Based in Oxford, UK. Open to collaborations in turbomachinery, scientific ML, and industrial decarbonisation.</p>
     <p class="contact-email"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
   </div>
 </section>

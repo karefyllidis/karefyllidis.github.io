@@ -2,21 +2,20 @@
   org: "Coolbrook Technologies"
   period: "Aug 2023 – present"
   url: "https://www.coolbrook.com"
-  summary: "PhD-to-product work on novel turbo-reactor platforms — aerothermal design, TB-scale HPC CFD, reduced-order and neural-network surrogates, Monte Carlo UQ, and first-of-a-kind pilot validation against live plant data."
+  summary: "PhD-to-product work on novel turbo-reactor platforms — aerothermal design, TB-scale HPC CFD, reduced-order and neural-network surrogates, Monte Carlo UQ, first-of-a-kind pilot validation, and pre-feasibility with major petrochemical partners."
   highlights:
-    - "Built Python/MATLAB pipelines integrating rig, plant, and simulation measurements for pilot analysis and design reviews."
-    - "Ran pre-feasibility with major petrochemical partners on-site — mapped plant constraints and data availability ahead of pilot scale-up."
-    - "Developed reduced-order aero-chemistry surrogates — including neural-network (RNN/MLP) models — validated against high-fidelity CFD and pilot test results."
-    - "Led end-to-end 3D unsteady CFD for a first-of-a-kind turbomachinery pilot at a live petrochemical test site; validated against real plant data."
+    - "Led TB-scale HPC CFD and first-of-a-kind pilot validation against live plant data at a petrochemical test site."
+    - "Developed reduced-order and neural-network aero-chemistry surrogates validated against high-fidelity CFD and pilot test results."
+    - "Built Monte Carlo UQ framework across coupled mechanical, process, and controls subsystems."
     - "Co-led product definition with Product Manager; drafted patents on next-generation turbo-reactor platforms."
 
 - role: "Visiting Researcher"
   org: "University of Oxford, Dept. of Engineering Science"
   period: "Sep 2024 – Sep 2025"
   url: "https://eng.ox.ac.uk"
-  summary: "Research on turbomachinery aerodynamics and scientific ML alongside the Coolbrook industry role — HydrAI proprietary framework and extended in-house meanline toolchain with reacting-flow chemistry."
+  summary: "Research on turbomachinery aerodynamics and scientific ML — HydrAI proprietary framework and extended in-house meanline toolchain with reacting-flow chemistry."
   highlights:
-    - "Built proprietary HydrAI scientific ML workspace (GeneralizedPFR data pipeline, NESP neuro-symbolic pyrolysis surrogates — PINN/PI-RNN, PySR/SymTorch rate closures, CFD coupling)."
+    - "Built proprietary HydrAI workspace — GeneralizedPFR Cantera data pipeline and NESP neuro-symbolic pyrolysis surrogates with symbolic rate closures."
     - "Extended in-house multi-stage aerodynamics meanline code with reacting-flow chemistry and holdout-validated surrogates."
     - "Co-supervised a DPhil researcher on experimental supersonic aerodynamics and heat transfer."
 
@@ -38,12 +37,6 @@
   summary: "Automated regression testing and QA for Ansys CFX and the turbomachinery toolchain."
   highlights:
     - "Built automated regression test suites (>500 cases) for new CFX solver features; designed failure detection and triage workflows."
-
-- role: "Raider Forces — National Service"
-  org: "Cypriot National Guard"
-  period: "2017 – 2018"
-  summary: "Raider Forces infantry service; sustained field operations under high-accountability conditions."
-  highlights: []
 
 - role: "Spacecraft Propulsion Researcher"
   org: "Surrey Space Centre (AAReST mission)"

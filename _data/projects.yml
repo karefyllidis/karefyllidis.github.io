@@ -29,7 +29,7 @@
     - Reacting Flows
 
 - category: oxford
-  title: "HydrAI"
+  title: "hydrAI"
   period: "Oxford (Visiting Researcher)"
   description: "Proprietary scientific ML workspace — GeneralizedPFR (Cantera PFR training-data pipeline, HPC/SLURM) and NESP (neuro-symbolic pyrolysis surrogates and symbolic rate closures from physics-informed neural networks). PINN/RNN training, symbolic regression, and per-output holdout evaluation."
   tags:

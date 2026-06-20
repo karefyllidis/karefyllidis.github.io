@@ -18,21 +18,21 @@ Read them before writing or editing any content. If a claim cannot be found in e
 
 - Do not invent technical phrases, method names, or outcomes not present in the ground truth.
 - Do not attribute tools or methods to the wrong role or project.
-- Do not merge separate projects. HydrAI and the Oxford meanline project are explicitly separate — never describe HydrAI as built on or integrated into the meanline stack.
+- Do not merge separate projects. hydrAI and the Oxford meanline project are explicitly separate — never describe hydrAI as built on or integrated into the meanline stack.
 - Do not overstate seniority, scope, or sole ownership of work beyond what the ground truth states.
 - If unsure whether a claim is confirmed, omit it and flag it in a comment.
 
-## HydrAI — hard rules
+## hydrAI — hard rules
 
-- HydrAI is **proprietary**. Never add a GitHub link or suggest it is open source.
-- HydrAI description must not mention "meanline", "meanline stack", or "meanline aerodynamics".
+- hydrAI is **proprietary**. Never add a GitHub link or suggest it is open source.
+- hydrAI description must not mention "meanline", "meanline stack", or "meanline aerodynamics".
 - Correct framing: Cantera detailed chemistry + PINN/RNN + symbolic regression (SymPy/PyTorch) + CFD coupling + holdout evaluation.
 - The `proprietary: true` flag in `_data/projects.yml` must never be removed.
 
 ## Separation of projects
 
 These are distinct and must never be merged in descriptions or highlights:
-- HydrAI (scientific ML framework) — Visiting Researcher role
+- hydrAI (scientific ML framework) — Visiting Researcher role
 - Oxford meanline code (multi-stage aerodynamics tool with Cantera chemistry) — separate bullet in Visiting Researcher, or separate project card
 - Turbo-Reactor Pilot Validation (3D unsteady CFD, plant validation) — Coolbrook role
 

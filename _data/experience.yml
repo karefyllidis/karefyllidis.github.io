@@ -2,20 +2,20 @@
   org: "Coolbrook Technologies"
   period: "Aug 2023 – present"
   url: "https://www.coolbrook.com"
-  summary: "PhD-to-product work on novel turbo-reactor platforms — aerothermal design, TB-scale HPC CFD, reduced-order and neural-network surrogates, Monte Carlo UQ, first-of-a-kind pilot validation, and pre-feasibility with major petrochemical partners."
+  summary: "PhD-to-product on first-of-a-kind turbo-reactor platforms — technical product definition, live pilot validation, and patent filings on next-generation hardware. Built the simulation and evidence base (TB-scale HPC CFD, surrogates, Monte Carlo UQ) used for pilot investment and scale-up decisions with leadership and major petrochemical partners."
   highlights:
-    - "Led TB-scale HPC CFD and first-of-a-kind pilot validation against live plant data at a petrochemical test site."
-    - "Developed reduced-order and neural-network aero-chemistry surrogates validated against high-fidelity CFD and pilot test results."
-    - "Built Monte Carlo UQ framework across coupled mechanical, process, and controls subsystems."
+    - "Took first-of-a-kind turbo-reactor hardware from design through live petrochemical pilot — reconciled models against real plant data."
+    - "Developed reduced-order and neural-network surrogates validated against high-fidelity CFD and pilot results — faster design iteration for product decisions."
+    - "Built Monte Carlo UQ across coupled mechanical, process, and controls subsystems — quantified operating-envelope risk before scale-up."
     - "Co-led product definition with Product Manager; drafted patents on next-generation turbo-reactor platforms."
 
 - role: "Visiting Researcher"
   org: "University of Oxford, Dept. of Engineering Science"
   period: "Sep 2024 – Sep 2025"
   url: "https://eng.ox.ac.uk"
-  summary: "Research on turbomachinery aerodynamics and scientific ML — HydrAI proprietary framework and extended in-house meanline toolchain with reacting-flow chemistry."
+  summary: "Built hydrAI as independently developed scientific-ML IP — a proprietary framework for physics-informed surrogates on reacting flows. Extended the in-house multi-stage meanline toolchain with Cantera chemistry and holdout-validated models."
   highlights:
-    - "Built proprietary HydrAI workspace — GeneralizedPFR Cantera data pipeline and NESP neuro-symbolic pyrolysis surrogates with symbolic rate closures."
+    - "Built hydrAI — GeneralizedPFR Cantera data pipeline and NESP neuro-symbolic pyrolysis surrogates with symbolic rate closures."
     - "Extended in-house multi-stage aerodynamics meanline code with reacting-flow chemistry and holdout-validated surrogates."
     - "Co-supervised a DPhil researcher on experimental supersonic aerodynamics and heat transfer."
 
@@ -23,7 +23,7 @@
   org: "Oxford Thermofluids Institute"
   period: "Sep 2019 – Aug 2023"
   url: "https://oti.eng.ox.ac.uk"
-  summary: "Coolbrook-sponsored PhD on aerothermal design of novel turbomachines for hydrocarbon cracking."
+  summary: "Industry-sponsored PhD on novel turbomachine architectures for hydrocarbon cracking — proven in TB-scale simulation before product handoff."
   highlights:
     - "Designed axial, radial, mixed-flow, and regenerative turbo-heaters/reactors; ran TB-scale HPC campaigns on ARC, CSD3, and Rescale."
     - "Implemented a hybrid Spalart–Allmaras turbulence model (LES/URANS) in in-house CFD; calibrated coefficients via Bayesian optimisation."
@@ -34,7 +34,7 @@
   org: "Ansys, Inc."
   period: "Sep 2018 – Apr 2019"
   url: "https://www.ansys.com"
-  summary: "Automated regression testing and QA for Ansys CFX and the turbomachinery toolchain."
+  summary: "Shipped production-grade QA for commercial CFD — automated regression at scale for Ansys CFX and the turbomachinery toolchain."
   highlights:
     - "Built automated regression test suites (>500 cases) for new CFX solver features; designed failure detection and triage workflows."
 
@@ -42,4 +42,4 @@
   org: "Surrey Space Centre (AAReST mission)"
   period: "Sep 2016 – Jun 2017"
   url: "https://www.surrey.ac.uk/surrey-space-centre"
-  summary: "BEng thesis and propulsion engineering for the AAReST spacecraft with Caltech and NASA JPL; chaired cross-institution milestone coordination across Surrey, Caltech, and JPL."
+  summary: "Delivered propulsion engineering for the AAReST spacecraft with Caltech and NASA JPL — BEng thesis work and cross-institution milestone coordination across Surrey, Caltech, and JPL."

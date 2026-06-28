@@ -10,7 +10,7 @@ author:
   location: "Oxford, UK"
   email: karefyllidis@gmail.com
   image: "/assets/images/headshot.jpg"
-  bio: "Oxford DPhil engineer and 2025 ASME IGTI John P. Davis Award recipient. I work at the intersection of turbomachinery physics, scientific ML (PINNs, surrogates, symbolic regression, Monte Carlo UQ), and first-of-a-kind industrial deployment — taking hardware from concept and high-fidelity simulation through live petrochemical pilot validation, patent filings, and the evidence packages that unlock scale-up investment. The thread across my work is closing the gap between validated models and real plant data on hardware that has never been built before."
+  bio: "Oxford PhD engineer and 2025 ASME IGTI John P. Davis Award recipient. I work at the intersection of turbomachinery physics, scientific ML (PINNs, surrogates, symbolic regression, Monte Carlo UQ), and first-of-a-kind industrial deployment — taking hardware from concept and high-fidelity simulation through live petrochemical pilot validation, patent filings, and the evidence packages that unlock scale-up investment. The thread across my work is closing the gap between validated models and real plant data on hardware that has never been built before."
   featured_award:
     title: "ASME IGTI John P. Davis Award, 2025"
     url: "https://www.asme.org/about-asme/honors-awards/unit-awards/john-p-davis-gas-turbine-applications-paper-award"

@@ -19,11 +19,11 @@
     - "Delivered meanline-cantera — open-source 1D turbo-reactor solver with integrated Cantera PFR chemistry, multi-objective optimisation, and design-of-experiments pipelines."
     - "Co-supervised a DPhil researcher on experimental supersonic aerodynamics and heat transfer."
 
-- role: "DPhil Researcher"
+- role: "PhD Researcher"
   org: "Oxford Thermofluids Institute"
   period: "Sep 2019 – Aug 2023"
   url: "https://oti.eng.ox.ac.uk"
-  summary: "Industry-sponsored DPhil on novel turbomachinery architectures for industrial hydrocarbon cracking — produced the aerothermal design foundation and TB-scale simulation evidence base later validated at petrochemical pilot scale. Lead author on three award-winning papers (ASME John P. Davis 2025; ASME Turbomachinery Best Paper 2024; GPPS Best Paper 2024)."
+  summary: "Industry-sponsored PhD on novel turbomachinery architectures for industrial hydrocarbon cracking — produced the aerothermal design foundation and TB-scale simulation evidence base later validated at petrochemical pilot scale. Lead author on three award-winning papers (ASME John P. Davis 2025; ASME Turbomachinery Best Paper 2024; GPPS Best Paper 2024)."
   highlights:
     - "Designed axial, radial, mixed-flow, and regenerative turbo-heaters/reactors across TB-scale HPC campaigns on ARC, CSD3, and Rescale — design work that fed directly into the commercial product."
     - "Implemented a hybrid Spalart–Allmaras turbulence model (LES/URANS) in in-house CFD; calibrated via Bayesian optimisation against experimental data."

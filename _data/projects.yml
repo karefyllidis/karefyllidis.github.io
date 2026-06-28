@@ -52,7 +52,7 @@
 - category: open_source
   title: "SEBO — Sample-Efficient Bayesian Optimizer"
   period: "Independent (2025)"
-  description: "GP-based Bayesian optimizer built from scratch and published to PyPI — competitive with Optuna-TPE and TuRBO on sample efficiency across 6 synthetic benchmarks. Drop-in for any black-box maximisation problem where evaluations are expensive: GP surrogate with ensemble acquisition (EI + PI + UCB), output warping, and warm-start support."
+  description: "Bayesian optimizer built from scratch and published to PyPI. GP surrogate with competing kernels (RBF, Matérn ν=1.5) selected each round by log-marginal likelihood; ensemble acquisition (EI, PI, UCB) falls back to the centroid when the three disagree; log/Box-Cox output warping for objectives spanning orders of magnitude. Benchmarked against Optuna-TPE and TuRBO on 6 synthetic functions; originally written for the NeurIPS 2020 BBO Challenge."
   tags:
     - Python
     - Gaussian Processes
@@ -74,7 +74,7 @@
 - category: ind_active
   title: "Super Rotor Designer"
   period: "Independent (2025–present)"
-  description: "End-to-end supersonic impulse-rotor design tool: parametric blade geometry via method of characteristics (MOC), aerodynamic evaluation in the MISES blade-to-blade cascade solver, and a reinforcement learning optimisation loop over mid-chord and passage geometry — with leading and trailing edges fixed. Designed to close the gap between analytical blade design and high-fidelity aero evaluation in a single automated workflow."
+  description: "End-to-end supersonic impulse-rotor design workflow: parametric blade geometry from a method-of-characteristics solver, aerodynamic evaluation in MISES, and a reinforcement learning loop that perturbs mid-chord and passage geometry while keeping the leading and trailing edges fixed. MOC output feeds directly into MISES; RL reward comes from the cascade performance metrics."
   tags:
     - Python
     - MATLAB
@@ -109,7 +109,7 @@
 - category: ind_delivered
   title: "NESP — Neuro-Symbolic Pyrolysis Surrogates"
   period: "Independent (2025–2026)"
-  description: "Physics-informed neural networks (PINN / PI-RNN) trained on Cantera steady plug-flow reactor databases, then distilled to interpretable symbolic rate closures via symbolic regression (PySR / SymTorch). Produces compact, physically consistent source-term expressions suitable for CFD integration — removing the black-box opacity of standard neural surrogates."
+  description: "Physics-informed neural networks (PINN / PI-RNN) trained on Cantera steady plug-flow reactor databases, then distilled to symbolic rate closures via PySR and SymTorch. Phase A predicts species profiles along the reactor; Phase B fits reaction rates and extracts compact source-term expressions for CFD integration."
   tags:
     - PyTorch
     - PySR / SymTorch

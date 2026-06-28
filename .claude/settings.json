@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle exec jekyll build)",
+      "Bash(bundle exec jekyll serve*)",
+      "Bash(bundle exec jekyll serve --livereload)",
+      "Bash(bundle exec jekyll build --drafts)",
+      "Bash(git status)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git add _config.yml)",
+      "Bash(git add _data/*)",
+      "Bash(git add index.html)",
+      "Bash(git add assets/css/*)",
+      "Bash(git add _includes/*)",
+      "Bash(git add CLAUDE.md)"
+    ]
+  }
+}

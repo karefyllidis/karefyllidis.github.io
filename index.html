@@ -178,13 +178,29 @@ layout: default
         {% include project-card.html project=project %}
       {% endfor %}
     </div>
+
+    {% assign ind_active_projects = site.data.projects | where: "category", "ind_active" %}
+    <h3 class="project-group-title">Independent — Active</h3>
+    <div class="project-grid">
+      {% for project in ind_active_projects %}
+        {% include project-card.html project=project %}
+      {% endfor %}
+    </div>
+
+    {% assign ind_delivered_projects = site.data.projects | where: "category", "ind_delivered" %}
+    <h3 class="project-group-title">Independent — Completed</h3>
+    <div class="project-grid">
+      {% for project in ind_delivered_projects %}
+        {% include project-card.html project=project %}
+      {% endfor %}
+    </div>
   </div>
 </section>
 
 <section id="contact" class="section">
   <div class="container">
     <h2 class="section-title">Contact</h2>
-    <p>Based in Oxford, UK.</p>
+    <p>Oxford, UK. Open to conversations about hard industrial, climate, aerospace, and scientific-ML problems — research collaboration, technical advisory, or new ventures.</p>
     <p class="contact-email"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
   </div>
 </section>

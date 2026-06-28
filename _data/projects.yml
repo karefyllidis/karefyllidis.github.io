@@ -1,6 +1,6 @@
 - category: phd
   title: "Novel Turbo-Heater & Turbo-Reactor Aerodynamics"
-  period: "Oxford PhD, 2019–2024"
+  period: "Oxford PhD, 2019–2023"
   description: "Aerothermal design of axial, radial, mixed-flow, and regenerative turbo-heaters/reactors for hydrocarbon cracking — the core DPhil thesis on high-enthalpy gas heating for industrial decarbonisation. PhD work underpinned the next-generation turbo-reactor platform later validated at industrial pilot scale."
   tags:
     - Turbomachinery
@@ -40,12 +40,13 @@
   proprietary: true
 
 - category: oxford
-  title: "Multi-Stage Meanline Design Code with Integrated Chemistry"
+  title: "Multi-Stage Meanline Toolchain — Reacting Flow Extension"
   period: "Oxford (Visiting Researcher)"
-  description: "Extended in-house multi-stage aerodynamics meanline code with integrated Cantera reacting-flow chemistry for rapid performance screening."
+  description: "Extended the Oxford Thermofluids Institute's in-house multi-stage aerodynamics meanline code with Cantera reacting-flow chemistry and holdout-validated surrogate models for rapid performance screening of turbo-reactor stages."
   tags:
     - Meanline Methods
     - Cantera
+    - Fortran / Python
     - Performance Screening
 
 - category: open_source
@@ -56,3 +57,49 @@
     - Python
     - Bayesian Optimisation
   github: "https://github.com/karefyllidis/black-box-optimization"
+
+- category: ind_active
+  title: "Super Rotor Designer"
+  period: "Independent (2025–present)"
+  description: "End-to-end supersonic impulse-rotor design tool: parametric blade geometry via method of characteristics (MOC), aerodynamic evaluation in the MISES blade-to-blade cascade solver, and a reinforcement learning optimisation loop over mid-chord and passage geometry — with leading and trailing edges fixed. Designed to close the gap between analytical blade design and high-fidelity aero evaluation in a single automated workflow."
+  tags:
+    - Python
+    - MATLAB
+    - Method of Characteristics
+    - MISES
+    - Reinforcement Learning
+
+- category: ind_active
+  title: "Turbulence Deep Forecasting"
+  period: "Independent (2025–present)"
+  description: "Velocity field prediction in 2D/3D isotropic turbulence using physics-informed deep learning and gradient-boosted models. Training data sourced from the Johns Hopkins Turbulence Database (JHTDB); pipeline covers data download, slice extraction, and multi-step sequence forecasting evaluated on held-out cutouts."
+  tags:
+    - Python
+    - PyTorch
+    - XGBoost
+    - JHTDB
+    - Physics ML
+  note: "Personal project — code available on request"
+
+- category: ind_delivered
+  title: "meanline-cantera"
+  period: "Independent (2026)"
+  description: "1D multi-stage turbo-reactor meanline solver with inline Cantera plug-flow reactor chemistry. Supports Bayesian optimisation (Optuna GP sampler), multi-objective optimisation, Latin-hypercube design-of-experiments, and parameter sweeps — producing validated performance maps and training data for neural-network surrogates."
+  tags:
+    - Python
+    - Cantera
+    - Optuna
+    - Meanline Methods
+    - DOE / BO
+  github: "https://github.com/karefyllidis/meanline-cantera"
+
+- category: ind_delivered
+  title: "NESP — Neuro-Symbolic Pyrolysis Surrogates"
+  period: "Independent (2025–2026)"
+  description: "Physics-informed neural networks (PINN / PI-RNN) trained on Cantera steady plug-flow reactor databases, then distilled to interpretable symbolic rate closures via symbolic regression (PySR / SymTorch). Produces compact, physically consistent source-term expressions suitable for CFD integration — removing the black-box opacity of standard neural surrogates."
+  tags:
+    - PyTorch
+    - PySR / SymTorch
+    - Cantera
+    - PINN / PI-RNN
+    - Symbolic Regression

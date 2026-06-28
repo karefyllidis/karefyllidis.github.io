@@ -50,6 +50,19 @@
     - Performance Screening
 
 - category: open_source
+  title: "SEBO — Sample-Efficient Bayesian Optimizer"
+  period: "Independent (2025)"
+  description: "GP-based Bayesian optimizer built from scratch and published to PyPI — competitive with Optuna-TPE and TuRBO on sample efficiency across 6 synthetic benchmarks. Drop-in for any black-box maximisation problem where evaluations are expensive: GP surrogate with ensemble acquisition (EI + PI + UCB), output warping, and warm-start support."
+  tags:
+    - Python
+    - Gaussian Processes
+    - Bayesian Optimisation
+    - PyPI
+  github: "https://github.com/karefyllidis/SEBO"
+  link_url: "https://pypi.org/project/sebo/"
+  link_label: "PyPI"
+
+- category: open_source
   title: "Bayesian Optimisation of Unknown Functions — NeurIPS 2020 BBO"
   period: "Personal project"
   description: "GP–Bayesian optimisation of 8 unknown functions in the NeurIPS 2020 BBO challenge format; improved all 8 objectives."

@@ -73,7 +73,7 @@
 
 - category: ind_active
   title: "Super Rotor Designer"
-  period: "Independent (2025–present)"
+  period: "Oxford PhD, extended 2025–present"
   description: "End-to-end supersonic impulse-rotor design workflow: parametric blade geometry from a method-of-characteristics solver, aerodynamic evaluation in MISES, and a reinforcement learning loop that perturbs mid-chord and passage geometry while keeping the leading and trailing edges fixed. MOC output feeds directly into MISES; RL reward comes from the cascade performance metrics."
   tags:
     - Python

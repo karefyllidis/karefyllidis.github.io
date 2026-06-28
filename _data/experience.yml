@@ -4,7 +4,7 @@
   url: "https://www.coolbrook.com"
   summary: "Took a novel turbo-reactor from PhD-stage design to live petrochemical pilot — covering technical product definition, TB-scale HPC simulation, model-to-plant validation, Monte Carlo UQ across subsystems, and patent filings on next-generation hardware. The simulation and evidence base I built supported go/no-go and scale-up investment decisions at leadership level with major petrochemical partners."
   highlights:
-    - "Validated models against live plant data from the first-of-a-kind turbo-reactor pilot — closed the offline-to-online gap that determines commercial viability."
+    - "Validated models against live plant data from the first-of-a-kind turbo-reactor pilot — closed the offline-to-online gap between simulation and real operating conditions."
     - "Built reduced-order and neural-network surrogates against high-fidelity CFD and pilot results — cut design-iteration time for product decisions."
     - "Quantified operating-envelope risk before scale-up: Monte Carlo UQ across coupled mechanical, process, and controls subsystems."
     - "Co-led technical product definition with the Product Manager; drafted patents on next-generation turbo-reactor platforms."
@@ -13,11 +13,11 @@
   org: "University of Oxford, Dept. of Engineering Science"
   period: "Sep 2024 – Sep 2025"
   url: "https://eng.ox.ac.uk"
-  summary: "Developed hydrAI independently — proprietary scientific-ML IP built outside of any employer structure: physics-informed neural networks and neuro-symbolic rate closures for pyrolysis chemistry (PINNs, PI-RNNs, symbolic regression via PySR). Also delivered a multi-stage turbo-reactor meanline solver with inline Cantera chemistry, Bayesian optimisation, and holdout-validated performance models."
+  summary: "Developed hydrAI independently — proprietary scientific-ML work: physics-informed neural networks and neuro-symbolic rate closures for pyrolysis chemistry (PINNs, PI-RNNs, symbolic regression via PySR). Also delivered a multi-stage turbo-reactor meanline solver with inline Cantera chemistry, Bayesian optimisation, and holdout-validated performance models."
   highlights:
-    - "Built hydrAI as own IP: GeneralizedPFR Cantera training-data pipeline and NESP neuro-symbolic pyrolysis surrogates distilled to interpretable symbolic rate closures."
+    - "Built hydrAI: GeneralizedPFR Cantera training-data pipeline and NESP neuro-symbolic pyrolysis surrogates distilled to symbolic rate closures."
     - "Delivered meanline-cantera — open-source 1D turbo-reactor solver with integrated Cantera PFR chemistry, multi-objective optimisation, and design-of-experiments pipelines."
-    - "Co-supervised a DPhil researcher on experimental supersonic aerodynamics and heat transfer."
+    - "Co-supervised a PhD researcher on experimental supersonic aerodynamics and heat transfer."
 
 - role: "PhD Researcher"
   org: "Oxford Thermofluids Institute"
@@ -42,4 +42,4 @@
   org: "Surrey Space Centre (AAReST mission)"
   period: "Sep 2016 – Jun 2017"
   url: "https://www.surrey.ac.uk/surrey-space-centre"
-  summary: "Delivered propulsion engineering for the AAReST spacecraft with Caltech and NASA JPL — BEng thesis work and cross-institution milestone coordination across Surrey, Caltech, and JPL."
+  summary: "Propulsion engineering for the AAReST spacecraft — BEng thesis work carried out jointly with Caltech and NASA JPL."

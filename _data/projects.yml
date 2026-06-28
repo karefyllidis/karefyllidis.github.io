@@ -1,7 +1,7 @@
 - category: phd
   title: "Novel Turbo-Heater & Turbo-Reactor Aerodynamics"
   period: "Oxford PhD, 2019–2023"
-  description: "Aerothermal design of axial, radial, mixed-flow, and regenerative turbo-heaters/reactors for hydrocarbon cracking — the core DPhil thesis on high-enthalpy gas heating for industrial decarbonisation. PhD work underpinned the next-generation turbo-reactor platform later validated at industrial pilot scale."
+  description: "Aerothermal design of axial, radial, mixed-flow, and regenerative turbo-heaters/reactors for hydrocarbon cracking — the core PhD thesis on high-enthalpy gas heating for industrial decarbonisation. The aerodynamic foundations developed here were later validated at petrochemical pilot scale."
   tags:
     - Turbomachinery
     - Supersonic Flows
@@ -63,9 +63,9 @@
   link_label: "PyPI"
 
 - category: open_source
-  title: "Bayesian Optimisation of Unknown Functions — NeurIPS 2020 BBO"
+  title: "NeurIPS 2020 BBO — Per-Function Pipelines"
   period: "Personal project"
-  description: "GP–Bayesian optimisation of 8 unknown functions in the NeurIPS 2020 BBO challenge format; improved all 8 objectives."
+  description: "Per-function GP pipelines for the NeurIPS 2020 Black-Box Optimisation Challenge — the 8 individual notebooks and evaluation scripts that preceded SEBO. Kept as reference for the original per-function approach before it was generalised into a reusable optimizer."
   tags:
     - Python
     - Bayesian Optimisation
@@ -85,7 +85,7 @@
 - category: ind_active
   title: "Turbulence Deep Forecasting"
   period: "Independent (2025–present)"
-  description: "Velocity field prediction in 2D/3D isotropic turbulence using physics-informed deep learning and gradient-boosted models. Training data sourced from the Johns Hopkins Turbulence Database (JHTDB); pipeline covers data download, slice extraction, and multi-step sequence forecasting evaluated on held-out cutouts."
+  description: "Velocity field prediction in 2D/3D isotropic turbulence using deep learning and gradient-boosted models. Training data from the Johns Hopkins Turbulence Database (JHTDB); pipeline covers data download, slice extraction, and multi-step sequence forecasting evaluated on held-out cutouts."
   tags:
     - Python
     - PyTorch

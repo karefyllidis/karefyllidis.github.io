@@ -29,14 +29,15 @@
     - Reacting Flows
 
 - category: oxford
-  title: "hydrAI"
+  title: "hydrAI / NESP"
   period: "Oxford (Visiting Researcher)"
-  description: "Proprietary scientific ML workspace — GeneralizedPFR (Cantera PFR training-data pipeline, HPC/SLURM) and NESP (neuro-symbolic pyrolysis surrogates and symbolic rate closures from physics-informed neural networks). PINN/RNN training, symbolic regression, and per-output holdout evaluation."
+  description: "Proprietary physics-informed ML workspace for pyrolysis chemistry. GeneralizedPFR builds HPC-scale Cantera steady plug-flow reactor databases (SLURM); NESP trains PINN / PI-RNN surrogates on those databases and distils compact symbolic rate closures via PySR for direct CFD integration. End-to-end pipeline from data generation through per-output holdout evaluation of learned reaction rates."
   tags:
     - PyTorch
-    - PINN / RNN
-    - Symbolic Regression
+    - PINN / PI-RNN
+    - Symbolic Regression (PySR)
     - Cantera
+    - HPC / SLURM
   proprietary: true
 
 - category: oxford
@@ -62,14 +63,6 @@
   link_url: "https://pypi.org/project/sebo/"
   link_label: "PyPI"
 
-- category: open_source
-  title: "NeurIPS 2020 BBO — Per-Function Pipelines"
-  period: "Personal project"
-  description: "Per-function GP pipelines for the NeurIPS 2020 Black-Box Optimisation Challenge — the 8 individual notebooks and evaluation scripts that preceded SEBO. Kept as reference for the original per-function approach before it was generalised into a reusable optimizer."
-  tags:
-    - Python
-    - Bayesian Optimisation
-  github: "https://github.com/karefyllidis/black-box-optimization"
 
 - category: ind_active
   title: "Super Rotor Designer"
@@ -82,17 +75,6 @@
     - MISES
     - Reinforcement Learning
 
-- category: ind_active
-  title: "Turbulence Deep Forecasting"
-  period: "Independent (2025–present)"
-  description: "Velocity field prediction in 2D/3D isotropic turbulence using deep learning and gradient-boosted models. Training data from the Johns Hopkins Turbulence Database (JHTDB); pipeline covers data download, slice extraction, and multi-step sequence forecasting evaluated on held-out cutouts."
-  tags:
-    - Python
-    - PyTorch
-    - XGBoost
-    - JHTDB
-    - Physics ML
-  note: "Personal project — code available on request"
 
 - category: ind_delivered
   title: "meanline-cantera"
@@ -106,13 +88,3 @@
     - DOE / BO
   github: "https://github.com/karefyllidis/meanline-cantera"
 
-- category: ind_delivered
-  title: "NESP — Neuro-Symbolic Pyrolysis Surrogates"
-  period: "Independent (2025–2026)"
-  description: "Physics-informed neural networks (PINN / PI-RNN) trained on Cantera steady plug-flow reactor databases, then distilled to symbolic rate closures via PySR and SymTorch. Phase A predicts species profiles along the reactor; Phase B fits reaction rates and extracts compact source-term expressions for CFD integration."
-  tags:
-    - PyTorch
-    - PySR / SymTorch
-    - Cantera
-    - PINN / PI-RNN
-    - Symbolic Regression

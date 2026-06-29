@@ -2,21 +2,20 @@
   org: "Coolbrook Technologies"
   period: "Aug 2023 – present"
   url: "https://www.coolbrook.com"
-  summary: "Took a novel turbo-reactor from PhD-stage design to live petrochemical pilot — covering technical product definition, TB-scale HPC simulation, model-to-plant validation, Monte Carlo UQ across subsystems, and patent filings on next-generation hardware. The simulation and evidence base I built supported go/no-go and scale-up investment decisions at leadership level with major petrochemical partners."
+  summary: "Built and deployed a multi-physics digital twin for a novel turbo-reactor from PhD-stage design through to live petrochemical pilot — spanning TB-scale HPC simulation, model-to-plant validation, Monte Carlo UQ across coupled subsystems, and patent filings. Translated simulation results into investment-grade evidence packages that informed go/no-go and scale-up decisions at executive and partner level with major petrochemical partners."
   highlights:
-    - "Validated models against live plant data from the first-of-a-kind turbo-reactor pilot — closed the offline-to-online gap between simulation and real operating conditions."
+    - "Validated high-fidelity CFD and surrogate models against live plant data from the first-of-a-kind turbo-reactor pilot — closed the offline-to-online gap between production HPC simulation and real operating conditions."
     - "Built reduced-order and neural-network surrogates against high-fidelity CFD and pilot results — cut design-iteration time for product decisions."
     - "Quantified operating-envelope risk before scale-up: Monte Carlo UQ across coupled mechanical, process, and controls subsystems."
-    - "Co-led technical product definition with the Product Manager; drafted patents on next-generation turbo-reactor platforms."
+    - "Drafted patents on next-generation turbo-reactor platforms."
 
 - role: "Visiting Researcher"
   org: "University of Oxford, Dept. of Engineering Science"
   period: "Sep 2024 – Sep 2025"
   url: "https://eng.ox.ac.uk"
-  summary: "Developed hydrAI independently — proprietary scientific-ML work: physics-informed neural networks and neuro-symbolic rate closures for pyrolysis chemistry (PINNs, PI-RNNs, symbolic regression via PySR). Also delivered a multi-stage turbo-reactor meanline solver with inline Cantera chemistry, Bayesian optimisation, and holdout-validated performance models."
+  summary: "Developed two independent physics-informed ML toolchains at Oxford: hydrAI/NESP (PINNs, PI-RNNs, and symbolic regression for pyrolysis chemistry) and meanline-cantera (1D turbo-reactor solver with Cantera chemistry, Bayesian optimisation, and DOE pipelines for surrogate training data)."
   highlights:
-    - "Built hydrAI: GeneralizedPFR Cantera training-data pipeline and NESP neuro-symbolic pyrolysis surrogates distilled to symbolic rate closures."
-    - "Delivered meanline-cantera — open-source 1D turbo-reactor solver with integrated Cantera PFR chemistry, multi-objective optimisation, and design-of-experiments pipelines."
+    - "Delivered meanline-cantera: 1D multi-stage turbo-reactor solver with inline Cantera chemistry, multi-objective optimisation, and Latin-hypercube DOE — producing validated performance maps and surrogate training datasets."
     - "Co-supervised a PhD researcher on experimental supersonic aerodynamics and heat transfer."
 
 - role: "PhD Researcher"

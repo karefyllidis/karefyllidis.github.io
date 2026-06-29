@@ -1,16 +1,17 @@
 title: Nikolas Karefyllidis
-description: Oxford PhD engineer · Turbomachinery, reacting flows & scientific ML · First-of-a-kind industrial deployment · Co-founder / Founder-in-Residence
+description: Oxford PhD engineer · Multiphysics simulation & digital twins · Physics-informed ML · HPC · Cross-industry deployment
 url: "https://karefyllidis.github.io"
 baseurl: ""
 
 author:
   name: Nikolas Karefyllidis, Ph.D.
-  role: "Senior Aerodynamics Engineer · Oxford PhD"
-  positioning: "Turbomachinery & reacting flows · Scientific ML · First-of-a-kind industrial deployment"
+  role: "Multiphysics Simulation & Scientific ML · Oxford PhD"
+  positioning: "Physics-informed ML · Digital Twins · HPC · Cross-industry deployment"
   location: "Oxford, UK"
   email: karefyllidis@gmail.com
   image: "/assets/images/headshot.jpg"
-  bio: "Oxford PhD engineer and 2025 ASME IGTI John P. Davis Award recipient. I work at the intersection of turbomachinery physics, scientific ML (PINNs, surrogates, symbolic regression, Monte Carlo UQ), and first-of-a-kind industrial deployment — taking hardware from concept and high-fidelity simulation through live petrochemical pilot validation, patent filings, and the evidence packages for scale-up investment decisions. The thread across my work is closing the gap between validated models and real plant data on hardware that has never been built before."
+  bio: "Oxford PhD engineer and 2025 ASME IGTI John P. Davis Award recipient. I design and deploy multi-physics simulation frameworks and physics-informed ML — building digital twins, surrogate models, and production HPC toolchains that close the gap between high-fidelity computation and real operating data. My work spans turbomachinery aerodynamics, reacting flows, and scientific ML (PINNs, PI-RNNs, symbolic regression, Monte Carlo UQ), applied across energy, aerospace, and process industries. The consistent output is translating rigorous simulation into evidence that shapes investment and scale-up decisions."
+  founder_profile: "I build end-to-end simulation and scientific ML toolchains — from high-fidelity multiphysics models and terabyte-scale HPC campaigns through to reduced-order surrogates, physics-informed neural networks, and symbolic rate closures validated against real plant data. Every project is oriented toward the same goal: turning computational rigour into decisions that count."
   featured_award:
     title: "ASME IGTI John P. Davis Award, 2025"
     url: "https://www.asme.org/about-asme/honors-awards/unit-awards/john-p-davis-gas-turbine-applications-paper-award"
@@ -22,17 +23,16 @@ social:
 resume_url: ""
 
 skills:
-  - Scientific ML & AI
-  - Multiphysics Simulation
-  - Thermofluids & Reacting Flows
-  - Aerospace & Propulsion
-  - Chemical & Process Engineering
-  - Energy Systems & Decarbonisation
-  - Digital Twins & HPC
-  - Uncertainty Quantification
-  - FOAK Scale-up & Pilot Validation
-  - Technical Product Definition
-  - Patents & IP
+  - Multiphysics Simulation & Digital Twins
+  - Physics-informed ML (PINNs, Neural Operators)
+  - Scientific Python & PyTorch
+  - HPC & Scalable Production Deployment
+  - Surrogate Modelling & Reduced-Order Methods
+  - Uncertainty Quantification (Monte Carlo, Bayesian)
+  - Turbomachinery & Reacting Flows
+  - Bayesian Optimisation
+  - Statistical Sampling & Design of Experiments
+  - Patents & Technical IP
 
 exclude:
   - Gemfile

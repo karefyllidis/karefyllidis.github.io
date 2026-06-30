@@ -1,6 +1,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
   <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
   {% if site.author.image != "" %}
     <link rel="preload" as="image" href="{{ site.author.image | relative_url }}">

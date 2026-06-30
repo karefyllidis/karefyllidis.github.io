@@ -117,7 +117,7 @@ If neither `github` nor `link_url` is present, the card renders "Proprietary —
 | **Coolbrook Technologies work** | Employer — proprietary | Describe transferable capability and public outcomes only. Never expose designs, data, customer names, non-public specifics, or pilot details beyond what is already in `_data/experience.yml`. |
 | **hydrAI / NESP** | Nikolas's own independent IP — **not open source** | Describe as proprietary scientific-ML IP. Do not add a GitHub link. Render as "Proprietary — details on reasonable request". |
 | **Multi-stage meanline code** | In-house Oxford code | Frame as extended/contributed-to, not sole-authored. Do not publish code. |
-| **black-box-optimization** | Public on GitHub — safe to link | `https://github.com/karefyllidis/black-box-optimization` |
+| **black-box-optimization** | Superseded by SEBO — already public and linked under `open_source` in `_data/projects.yml` | No action needed; do not re-add as a separate project entry |
 | **super-rotor-designer** | Nikolas's own tool | Add if requested; treat as independent/proprietary unless a repo link is explicitly provided. |
 | **turbulence-deep-forecasting** | Personal project | Can be shown; confirm GitHub visibility before linking. |
 

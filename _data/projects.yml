@@ -20,10 +20,12 @@
     - Method of Characteristics
 
 - category: phd
-  title: "Reduced-Order Aero-Chemistry Models"
-  period: "Oxford PhD"
-  description: "Coupled flow-field and yield prediction linking turbomachinery aerodynamics to pyrolysis chemistry; holdout-validated reduced-order models for rapid design screening."
+  title: "hydrAI"
+  period: "Oxford PhD, 2019–2024"
+  description: "Physics-constrained neural surrogate for steam-cracking plug-flow-reactor (PFR) simulation. Benchmarked tree ensembles (RF, GBT, XGBoost) against a PyTorch MLP; holdout-validated across operating conditions and feedstocks, coupling turbomachinery flow state to pyrolysis yield for rapid design screening."
   tags:
+    - PyTorch
+    - PINNs / Neural Surrogates
     - Cantera
     - Surrogate Modelling
     - Reacting Flows

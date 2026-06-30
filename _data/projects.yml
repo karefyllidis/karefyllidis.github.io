@@ -29,6 +29,7 @@
     - Cantera
     - Surrogate Modelling
     - Reacting Flows
+  github: "https://github.com/karefyllidis/open_HydrAI"
 
 - category: oxford
   title: "NESP"

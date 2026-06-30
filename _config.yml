@@ -11,7 +11,6 @@ author:
   email: karefyllidis@gmail.com
   image: "/assets/images/headshot.jpg"
   bio: "Oxford PhD engineer and 2025 ASME IGTI John P. Davis Award recipient. I build physics-informed ML and multiphysics simulation for industrial decarbonisation hardware — surrogate models, PINNs, and TB-scale HPC toolchains carried from PhD research into commercialised engineering workflows. My work spans turbomachinery aerodynamics, reacting flows, and scientific ML (PINNs, PI-RNNs, symbolic regression, Monte Carlo UQ), deployed across energy, aerospace, and process industries. The consistent output: rigorous computation translated into evidence that shapes investment and scale-up decisions."
-  founder_profile: "I build end-to-end scientific ML and simulation toolchains — terabyte-scale HPC to physics-informed neural networks, reduced-order surrogates, and symbolic rate closures, all validated against real plant data. Every project closes the same loop: rigorous computation into decisions that count."
   featured_award:
     title: "ASME IGTI John P. Davis Award, 2025"
     url: "https://www.asme.org/about-asme/honors-awards/unit-awards/john-p-davis-gas-turbine-applications-paper-award"

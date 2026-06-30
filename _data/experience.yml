@@ -13,7 +13,7 @@
   org: "University of Oxford, Dept. of Engineering Science"
   period: "Sep 2024 – Sep 2025"
   url: "https://eng.ox.ac.uk"
-  summary: "Developed two independent physics-informed ML toolchains at Oxford: hydrAI/NESP (PINNs, PI-RNNs, and symbolic regression for pyrolysis chemistry) and meanline-cantera (1D turbo-reactor solver with Cantera chemistry, Bayesian optimisation, and DOE pipelines for surrogate training data)."
+  summary: "Built two physics-informed ML and simulation toolchains at Oxford: NESP (PINNs, PI-RNNs, and symbolic regression for pyrolysis chemistry) and a multi-stage turbo-reactor meanline solver with Cantera chemistry, Bayesian optimisation, and Pareto-front multi-objective optimisation."
   highlights:
     - "Delivered meanline-cantera: 1D multi-stage turbo-reactor solver with inline Cantera chemistry, multi-objective optimisation, and Latin-hypercube DOE — producing validated performance maps and surrogate training datasets."
     - "Co-supervised a PhD researcher on experimental supersonic aerodynamics and heat transfer."

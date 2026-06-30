@@ -43,11 +43,13 @@
 - category: oxford
   title: "Multi-Stage Meanline Toolchain — Reacting Flow Extension"
   period: "Oxford (Visiting Researcher)"
-  description: "Extended the Oxford Thermofluids Institute's in-house multi-stage aerodynamics meanline code with Cantera reacting-flow chemistry and holdout-validated surrogate models for rapid performance screening of turbo-reactor stages."
+  description: "Extended the Oxford Thermofluids Institute's in-house multi-stage aerodynamics meanline code with Cantera reacting-flow chemistry, Bayesian optimisation, and Pareto-front genetic-algorithm multi-objective optimisation, plus holdout-validated surrogate models for rapid performance screening of turbo-reactor stages."
   tags:
     - Meanline Methods
     - Cantera
     - Fortran / Python
+    - Bayesian Optimisation
+    - Multi-Objective GA (Pareto)
     - Performance Screening
 
 - category: open_source

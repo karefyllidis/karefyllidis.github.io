@@ -24,10 +24,10 @@
   url: "https://oti.eng.ox.ac.uk"
   summary: "Industry-sponsored PhD on novel turbomachinery architectures for industrial hydrocarbon cracking — produced the aerothermal design foundation and TB-scale simulation evidence base later validated at petrochemical pilot scale. Lead author on three award-winning papers (ASME John P. Davis 2025; ASME Turbomachinery Best Paper 2024; GPPS Best Paper 2024)."
   highlights:
-    - "Designed axial, radial, mixed-flow, and regenerative turbo-heaters/reactors across TB-scale HPC campaigns on ARC, CSD3, and Rescale — design work that fed directly into the commercial product."
-    - "Implemented a hybrid Spalart–Allmaras turbulence model (LES/URANS) in in-house CFD; calibrated via Bayesian optimisation against experimental data."
-    - "Built holdout-validated reduced-order aero-chemistry models linking turbomachinery flow states to pyrolysis reaction yields."
-    - "Co-supervised MSc students on CFD and turbomachinery projects."
+    - "Built an ML surrogate for steam-cracking PFR simulation — benchmarked tree ensembles (RF, GBT, XGBoost) against a PyTorch MLP, holdout-validated across operating conditions and feedstocks, accelerating trade studies by ~500×."
+    - "Designed axial, radial, mixed-flow, and regenerative turbo-reactor architectures across TB-scale HPC campaigns (~1,000 cores; ARC, CSD3, Rescale) — simulation set geometry, stage loading, and operating conditions that fed directly into the commercial product."
+    - "Applied Bayesian optimisation to tune turbulence-model and simulation parameters against experimental data — cutting full HPC runs needed for convergence and quantifying prediction uncertainty across the design space."
+    - "Delivered research to production without discontinuity: surrogate and reduced-order models from this Coolbrook-sponsored programme ran on the commercial pilot."
 
 - role: "Testing Engineer"
   org: "Ansys, Inc."
@@ -35,10 +35,13 @@
   url: "https://www.ansys.com"
   summary: "Shipped production-grade QA for commercial CFD — automated regression at scale for Ansys CFX and the turbomachinery toolchain."
   highlights:
-    - "Built automated regression test suites (>500 cases) for new CFX solver features; designed failure detection and triage workflows."
+    - "Traced defects in multi-physics simulation products to root cause with development teams under time-critical release cycles, getting fixes into the codebase without slipping ship dates."
+    - "Designed regression and benchmark coverage across 500+ test cases — surfacing edge-case failures that turned subjective sign-off into clear go/no-go release decisions."
 
 - role: "Spacecraft Propulsion Researcher"
   org: "Surrey Space Centre (AAReST mission)"
   period: "Sep 2016 – Jun 2017"
   url: "https://www.surrey.ac.uk/surrey-space-centre"
   summary: "Propulsion engineering for the AAReST spacecraft — BEng thesis work carried out jointly with Caltech and NASA JPL."
+  highlights:
+    - "Owned the propulsion workstream end-to-end — from requirements through hardware integration and verification, keeping specifications, test data, and deliverables aligned across Surrey, Caltech, and NASA JPL."

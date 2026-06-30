@@ -28,7 +28,7 @@
 
   // Scroll reveal
   var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var revealTargets = document.querySelectorAll('.section, .timeline-item, .project-card, .publication-item');
+  var revealTargets = document.querySelectorAll('.timeline-item, .project-card, .publication-item');
 
   if (reduceMotion || !('IntersectionObserver' in window)) {
     revealTargets.forEach(function (el) { el.classList.add('is-visible'); });

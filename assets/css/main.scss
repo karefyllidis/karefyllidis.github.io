@@ -157,31 +157,36 @@ a {
 
 
 .theme-toggle {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 200;
   display: inline-flex;
   align-items: center;
-  padding: 0.3rem 0.7rem;
-  font-size: 0.8rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
   font-weight: 500;
   font-family: var(--font-sans);
-  color: var(--color-text-muted);
+  color: var(--color-text);
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 999px;
+  box-shadow: var(--shadow-md);
   cursor: pointer;
-  transition: color var(--transition), border-color var(--transition);
+  transition: box-shadow var(--transition), border-color var(--transition);
   white-space: nowrap;
 }
 
 .theme-toggle:hover {
-  color: var(--color-text);
   border-color: var(--color-hover-border);
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.12);
 }
 
-/* In light mode: show "Dark" (click to go dark), hide "Light" */
+/* In light mode: show "☀ Light", hide "☾ Dark" */
 .theme-label--light { display: none; }
 .theme-label--dark  { display: inline; }
 
-/* In dark mode: show "Light" (click to go light), hide "Dark" */
+/* In dark mode: show "☾ Dark", hide "☀ Light" */
 :root[data-theme="dark"] .theme-label--dark  { display: none; }
 :root[data-theme="dark"] .theme-label--light { display: inline; }
 

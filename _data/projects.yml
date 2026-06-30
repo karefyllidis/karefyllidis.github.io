@@ -31,7 +31,7 @@
     - Reacting Flows
 
 - category: oxford
-  title: "hydrAI / NESP"
+  title: "NESP"
   period: "Oxford (Visiting Researcher)"
   description: "Proprietary physics-informed ML workspace for pyrolysis chemistry. GeneralizedPFR builds HPC-scale Cantera steady plug-flow reactor databases (SLURM); NESP trains PINN / PI-RNN surrogates on those databases and distils compact symbolic rate closures via PySR for direct CFD integration. End-to-end pipeline from data generation through per-output holdout evaluation of learned reaction rates."
   tags:

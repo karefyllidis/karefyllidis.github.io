@@ -2,6 +2,10 @@
   <div class="container header-inner">
     <a class="site-title" href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
     <div class="header-controls">
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle colour scheme" title="Toggle dark / light mode">
+        <span class="theme-label theme-label--dark">Dark</span>
+        <span class="theme-label theme-label--light">Light</span>
+      </button>
       <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
         <span></span><span></span><span></span>
       </button>

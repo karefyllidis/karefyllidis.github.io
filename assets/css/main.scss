@@ -156,6 +156,35 @@ a {
 }
 
 
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-family: var(--font-sans);
+  color: var(--color-text-muted);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: color var(--transition), border-color var(--transition);
+  white-space: nowrap;
+}
+
+.theme-toggle:hover {
+  color: var(--color-text);
+  border-color: var(--color-hover-border);
+}
+
+/* In light mode: show "Dark" (click to go dark), hide "Light" */
+.theme-label--light { display: none; }
+.theme-label--dark  { display: inline; }
+
+/* In dark mode: show "Light" (click to go light), hide "Dark" */
+:root[data-theme="dark"] .theme-label--dark  { display: none; }
+:root[data-theme="dark"] .theme-label--light { display: inline; }
+
 .nav-toggle {
   display: none;
   flex-direction: column;

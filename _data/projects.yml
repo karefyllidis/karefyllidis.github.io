@@ -76,15 +76,3 @@
     - Reinforcement Learning
 
 
-- category: ind_delivered
-  title: "meanline-cantera"
-  period: "Independent (2026)"
-  description: "1D multi-stage turbo-reactor meanline solver with inline Cantera plug-flow reactor chemistry. Supports Bayesian optimisation (Optuna GP sampler), multi-objective optimisation, Latin-hypercube design-of-experiments, and parameter sweeps — producing validated performance maps and training data for neural-network surrogates."
-  tags:
-    - Python
-    - Cantera
-    - Optuna
-    - Meanline Methods
-    - DOE / BO
-  github: "https://github.com/karefyllidis/meanline-cantera"
-

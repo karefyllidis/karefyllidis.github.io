@@ -188,12 +188,14 @@ layout: default
     </div>
 
     {% assign ind_delivered_projects = site.data.projects | where: "category", "ind_delivered" %}
-    <h3 class="project-group-title">Independent — Completed</h3>
-    <div class="project-grid">
-      {% for project in ind_delivered_projects %}
-        {% include project-card.html project=project %}
-      {% endfor %}
-    </div>
+    {% if ind_delivered_projects.size > 0 %}
+      <h3 class="project-group-title">Independent — Completed</h3>
+      <div class="project-grid">
+        {% for project in ind_delivered_projects %}
+          {% include project-card.html project=project %}
+        {% endfor %}
+      </div>
+    {% endif %}
   </div>
 </section>
 

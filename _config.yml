@@ -6,7 +6,7 @@ baseurl: ""
 author:
   name: Nikolas Karefyllidis, Ph.D.
   role: "Multiphysics Simulation & Scientific ML · Oxford PhD"
-  positioning: "Research-to-Production · Data Science · Applied ML · Simulation & Data · TB-scale HPC"
+  positioning: "Research-to-Production · Applied ML & Data Science · Simulation at Scale"
   location: "Oxford, UK"
   email: karefyllidis@gmail.com
   image: "/assets/images/headshot.jpg"
@@ -22,15 +22,16 @@ social:
 resume_url: ""
 
 skills:
-  - Multiphysics Simulation & Digital Twins
-  - Physics-informed ML (PINNs, Neural Operators)
-  - Scientific Python & PyTorch
-  - HPC & Scalable Production Deployment
-  - Surrogate Modelling & Reduced-Order Methods
+  - AI for Scientific Discovery
+  - Physics-Informed ML
+  - Symbolic Regression & Explainable AI
+  - Surrogate & Reduced-Order Modelling
   - Uncertainty Quantification (Monte Carlo, Bayesian)
+  - Bayesian Optimisation & Design of Experiments
+  - Scientific Python & PyTorch
+  - Multiphysics Simulation & Digital Twins
+  - HPC & Scalable Production Deployment
   - Turbomachinery & Reacting Flows
-  - Bayesian Optimisation
-  - Statistical Sampling & Design of Experiments
   - Patents & Technical IP
 
 exclude:

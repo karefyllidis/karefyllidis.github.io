@@ -32,13 +32,13 @@
   proprietary: true
 
 - category: oxford
-  title: "NESP"
+  title: "NeSC — Neuro-Symbolic Closure"
   period: "Oxford (Visiting Researcher)"
-  description: "Proprietary physics-informed ML workspace for pyrolysis chemistry. GeneralizedPFR builds HPC-scale Cantera steady plug-flow reactor databases (SLURM); NESP trains PINN / PI-RNN surrogates on those databases and distils compact symbolic rate closures via PySR for direct CFD integration. End-to-end pipeline from data generation through per-output holdout evaluation of learned reaction rates."
+  description: "Proprietary physics-informed ML workspace for pyrolysis chemistry. A Latin-hypercube DOE, SLURM-parallelised campaign generates a multi-million-row Cantera plug-flow-reactor training database; leakage-safe run-grouped splits and domain-driven dimensionality reduction lump ~2,000 species into 9 chemistry groups. A PINN is trained and then distilled via symbolic regression (PySR, SymTorch) into compact, human-readable, physically consistent rate laws that couple directly into a CFD solver. Holdout-validated end-to-end; manuscript in preparation for Nature Communications."
   tags:
     - PyTorch
     - PINN / PI-RNN
-    - Symbolic Regression (PySR)
+    - Symbolic Regression (PySR / SymTorch)
     - Cantera
     - HPC / SLURM
   proprietary: true
@@ -54,6 +54,18 @@
     - Bayesian Optimisation
     - Multi-Objective GA (Pareto)
     - Performance Screening
+
+- category: open_source
+  title: "PlugFlowML"
+  period: "Independent (2025)"
+  description: "Open-source, MIT-licensed 10-lesson graduate course teaching ML surrogate modelling for physical simulation on reactor chemistry — tree ensembles, neural nets, PINNs, symbolic regression, and Bayesian optimisation, from Cantera-generated plug-flow-reactor data through to a distilled symbolic surrogate. Runs end-to-end on free Colab against a shared sample dataset."
+  tags:
+    - PyTorch
+    - PINNs
+    - Symbolic Regression (PySR)
+    - Cantera
+    - Bayesian Optimisation
+  github: "https://github.com/karefyllidis/PlugFlowML"
 
 - category: open_source
   title: "SEBO — Sample-Efficient Bayesian Optimizer"

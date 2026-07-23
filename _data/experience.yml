@@ -13,8 +13,9 @@
   org: "University of Oxford, Dept. of Engineering Science"
   period: "Sep 2024 – Sep 2025"
   url: "https://eng.ox.ac.uk"
-  summary: "Built two physics-informed ML and simulation toolchains at Oxford: NESP (PINNs, PI-RNNs, and symbolic regression for pyrolysis chemistry) and a multi-stage turbo-reactor meanline solver with Cantera chemistry, Bayesian optimisation, and Pareto-front multi-objective optimisation."
+  summary: "Built two physics-informed ML and simulation toolchains at Oxford: NeSC (Neuro-Symbolic Closure — PINNs, PI-RNNs, and symbolic regression for pyrolysis chemistry) and a multi-stage turbo-reactor meanline solver with Cantera chemistry, Bayesian optimisation, and Pareto-front multi-objective optimisation."
   highlights:
+    - "Built NeSC: generated a multi-million-row Cantera PFR training set via SLURM-parallelised Latin-hypercube DOE, lumped ~2,000 species into 9 chemistry groups, then distilled a PINN into human-readable symbolic rate laws (PySR, SymTorch) that couple directly into a CFD solver — holdout-validated, manuscript in preparation for Nature Communications."
     - "Delivered meanline-cantera: 1D multi-stage turbo-reactor solver with inline Cantera chemistry, multi-objective optimisation, and Latin-hypercube DOE — producing validated performance maps and surrogate training datasets."
     - "Co-supervised a PhD researcher on experimental supersonic aerodynamics and heat transfer."
 

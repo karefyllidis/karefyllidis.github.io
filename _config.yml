@@ -6,9 +6,9 @@ baseurl: ""
 author:
   name: Nikolas Karefyllidis, Ph.D.
   role: "Multiphysics Simulation & Scientific ML · Oxford PhD"
-  positioning: "Research-to-Production · Applied ML & Data Science · Simulation at Scale"
+  positioning: "Research-to-Production | Applied ML & Data Science | Simulation at Scale"
   location: "Oxford, UK"
-  email: karefyllidis@gmail.com
+  email: nikolas.karefyllidis@outlook.com
   image: "/assets/images/headshot.jpg"
   bio: "Oxford PhD engineer and 2025 ASME IGTI John P. Davis Award recipient. I work where physics, machine learning, and real-world industrial engineering meet — turning research ideas into production tools that help make heavy industry cleaner, faster to design, and cheaper to run. I've carried that work from first principles through to first-of-a-kind commercial deployment across energy, aerospace, and process industries."
   featured_award:
@@ -26,12 +26,12 @@ skills:
   - Physics-Informed ML
   - Symbolic Regression & Explainable AI
   - Surrogate & Reduced-Order Modelling
-  - Uncertainty Quantification (Monte Carlo, Bayesian)
+  - Uncertainty Quantification
   - Bayesian Optimisation & Design of Experiments
-  - Scientific Python & PyTorch
   - Multiphysics Simulation & Digital Twins
   - HPC & Scalable Production Deployment
-  - Turbomachinery & Reacting Flows
+  - Aerothermal Engineering
+  - Multiscale TB Simulations
   - Patents & Technical IP
 
 exclude:

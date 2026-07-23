@@ -19,22 +19,10 @@
     - HPC (ARC, CSD3, Rescale)
     - Method of Characteristics
 
-- category: phd
-  title: "hydrAI"
-  period: "Oxford PhD, 2019–2024"
-  description: "Physics-constrained neural surrogate for steam-cracking plug-flow-reactor (PFR) simulation. Benchmarked tree ensembles (RF, GBT, XGBoost) against a PyTorch MLP; holdout-validated across operating conditions and feedstocks, coupling turbomachinery flow state to pyrolysis yield for rapid design screening."
-  tags:
-    - PyTorch
-    - PINNs / Neural Surrogates
-    - Cantera
-    - Surrogate Modelling
-    - Reacting Flows
-  proprietary: true
-
 - category: oxford
   title: "NeSC — Neuro-Symbolic Closure"
   period: "Oxford (Visiting Researcher)"
-  description: "Proprietary physics-informed ML workspace for pyrolysis chemistry. A Latin-hypercube DOE, SLURM-parallelised campaign generates a multi-million-row Cantera plug-flow-reactor training database; leakage-safe run-grouped splits and domain-driven dimensionality reduction lump ~2,000 species into 9 chemistry groups. A PINN is trained and then distilled via symbolic regression (PySR, SymTorch) into compact, human-readable, physically consistent rate laws that couple directly into a CFD solver. Holdout-validated end-to-end; manuscript in preparation for Nature Communications."
+  description: "Proprietary neuro-symbolic ML workspace for pyrolysis chemistry. A SLURM-parallelised Latin-hypercube campaign builds a multi-million-row Cantera plug-flow-reactor database; leakage-safe run-grouped splits and species lumping compress ~2,000 species into 9 chemistry groups. A PINN is distilled via symbolic regression (PySR, SymTorch) into compact, human-readable rate laws that couple directly into a CFD solver — holdout-validated end-to-end, with a manuscript in preparation for Nature Communications."
   tags:
     - PyTorch
     - PINN / PI-RNN
@@ -70,7 +58,7 @@
 - category: open_source
   title: "SEBO — Sample-Efficient Bayesian Optimizer"
   period: "Independent (2025)"
-  description: "Bayesian optimizer built from scratch and published to PyPI. GP surrogate with competing kernels (RBF, Matérn ν=1.5) selected each round by log-marginal likelihood; ensemble acquisition (EI, PI, UCB) falls back to the centroid when the three disagree; log/Box-Cox output warping for objectives spanning orders of magnitude. Benchmarked against Optuna-TPE and TuRBO on 6 synthetic functions; originally written for the NeurIPS 2020 BBO Challenge."
+  description: "Sample-efficient Bayesian optimiser built from scratch and published to PyPI. GP surrogate with competing kernels (RBF, Matérn ν=1.5) chosen each round by log-marginal likelihood; ensemble acquisition (EI/PI/UCB) with log/Box-Cox output warping for objectives spanning orders of magnitude. Benchmarked against Optuna-TPE and TuRBO on 6 synthetic functions; originally written for the NeurIPS 2020 BBO Challenge."
   tags:
     - Python
     - Gaussian Processes

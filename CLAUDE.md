@@ -49,7 +49,7 @@ Do not edit files in `_site/` — it is generated. Do not touch `vendor/` or `Ge
 ### `_data/projects.yml` entry
 
 ```yaml
-- category: phd | industry | project
+- category: phd | industry | project | open_source
   title: "..."
   period: "..."
   description: "..."        # 1–3 sentences, outcome-first

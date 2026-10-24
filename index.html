@@ -178,6 +178,14 @@ layout: default
         {% include project-card.html project=project %}
       {% endfor %}
     </div>
+
+    {% assign oss_projects = site.data.projects | where: "category", "open_source" %}
+    <h3 class="project-group-title">Open Source</h3>
+    <div class="project-grid">
+      {% for project in oss_projects %}
+        {% include project-card.html project=project %}
+      {% endfor %}
+    </div>
   </div>
 </section>
 

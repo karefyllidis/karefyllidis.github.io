@@ -31,7 +31,7 @@
     - HPC (ARC, CSD3, Rescale)
     - Method of Characteristics
 
-- category: project
+- category: industry
   title: "Multi-Stage Meanline Toolchain — Reacting Flow Extension"
   description: "Extended the Oxford Thermofluids Institute's in-house multi-stage meanline code with inline Cantera chemistry, Bayesian optimisation and Pareto-front multi-objective search, for rapid performance and yield screening of turbo-reactor stages. Its validated runs also supply the reference reaction paths for the learned chemistry below."
   tags:
@@ -63,7 +63,7 @@
     - HPC (CSD3)
   proprietary: true
 
-- category: project
+- category: industry
   title: "NeSC — Neuro-Symbolic Closure"
   description: "Turns neural chemistry surrogates into compact, human-readable rate laws. A physics-informed network trained on reactor simulations is distilled by symbolic regression into closed-form expressions that a CFD solver can use directly — interpretable chemistry instead of a black box."
   tags:
@@ -72,7 +72,7 @@
     - Reacting Flows
   proprietary: true
 
-- category: project
+- category: phd
   title: "Super Rotor Designer"
   description: "Supersonic impulse-rotor design workflow: parametric blade geometry from a method-of-characteristics solver, evaluated aerodynamically in MISES."
   tags:
@@ -81,7 +81,7 @@
     - Method of Characteristics
     - MISES
 
-- category: project
+- category: open_source
   title: "PlugFlowML"
   description: "Open-source, MIT-licensed 10-lesson graduate course teaching ML surrogate modelling for physical simulation on reactor chemistry — tree ensembles, neural nets, PINNs, symbolic regression, and Bayesian optimisation, from Cantera-generated plug-flow-reactor data through to a distilled symbolic surrogate. Runs end-to-end on free Colab against a shared sample dataset."
   tags:
@@ -92,7 +92,7 @@
     - Bayesian Optimisation
   github: "https://github.com/karefyllidis/PlugFlowML"
 
-- category: project
+- category: open_source
   title: "SEBO — Sample-Efficient Bayesian Optimizer"
   description: "Sample-efficient Bayesian optimiser built from scratch and published to PyPI. GP surrogate with competing kernels (RBF, Matérn ν=1.5) chosen each round by log-marginal likelihood; ensemble acquisition (EI/PI/UCB) with log/Box-Cox output warping for objectives spanning orders of magnitude. Benchmarked against Optuna-TPE and TuRBO on 6 synthetic functions; originally written for the NeurIPS 2020 BBO Challenge."
   tags:

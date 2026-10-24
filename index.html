@@ -155,6 +155,14 @@ layout: default
   <div class="container">
     <h2 class="section-title">Projects</h2>
 
+    {% assign industry_projects = site.data.projects | where: "category", "industry" %}
+    <h3 class="project-group-title">Industry — Applied R&amp;D</h3>
+    <div class="project-grid">
+      {% for project in industry_projects %}
+        {% include project-card.html project=project %}
+      {% endfor %}
+    </div>
+
     {% assign phd_projects = site.data.projects | where: "category", "phd" %}
     <h3 class="project-group-title">PhD Research</h3>
     <div class="project-grid">
@@ -163,39 +171,13 @@ layout: default
       {% endfor %}
     </div>
 
-    {% assign oxford_projects = site.data.projects | where: "category", "oxford" %}
-    <h3 class="project-group-title">University of Oxford — Applied Research</h3>
+    {% assign other_projects = site.data.projects | where: "category", "project" %}
+    <h3 class="project-group-title">Research &amp; Engineering</h3>
     <div class="project-grid">
-      {% for project in oxford_projects %}
+      {% for project in other_projects %}
         {% include project-card.html project=project %}
       {% endfor %}
     </div>
-
-    {% assign oss_projects = site.data.projects | where: "category", "open_source" %}
-    <h3 class="project-group-title">Open Source</h3>
-    <div class="project-grid">
-      {% for project in oss_projects %}
-        {% include project-card.html project=project %}
-      {% endfor %}
-    </div>
-
-    {% assign ind_active_projects = site.data.projects | where: "category", "ind_active" %}
-    <h3 class="project-group-title">Independent — Active</h3>
-    <div class="project-grid">
-      {% for project in ind_active_projects %}
-        {% include project-card.html project=project %}
-      {% endfor %}
-    </div>
-
-    {% assign ind_delivered_projects = site.data.projects | where: "category", "ind_delivered" %}
-    {% if ind_delivered_projects.size > 0 %}
-      <h3 class="project-group-title">Independent — Completed</h3>
-      <div class="project-grid">
-        {% for project in ind_delivered_projects %}
-          {% include project-card.html project=project %}
-        {% endfor %}
-      </div>
-    {% endif %}
   </div>
 </section>
 

@@ -1,3 +1,15 @@
+- category: industry
+  title: "RDH900C — Operating-Envelope Uncertainty Quantification"
+  period: "Coolbrook Technologies, 2026"
+  description: "Monte Carlo uncertainty-stacking tool for the first commercial RotoDynamic Heater, answering the question that governs a first-of-a-kind commissioning: what shaft speed holds the contracted delivery condition, and with what confidence. Manufacturing tolerance, degradation, operating state, site weather and CFD model-form error are stacked on inverted CFD response surfaces, giving a mean-shift waterfall, Sobol-equivalent variance shares and a two-sigma acceptance check. The headline finding reframed the commissioning conversation: the uncertainty band is set by turbulence-model error, not build tolerance."
+  tags:
+    - Monte Carlo UQ
+    - Response-Surface Models
+    - Gaussian Copula / LHS
+    - Sensitivity Analysis (Sobol)
+    - Python / NumPy
+  proprietary: true
+
 - category: phd
   title: "Novel Turbo-Heater & Turbo-Reactor Aerodynamics"
   period: "Oxford PhD, 2019–2024"
@@ -19,33 +31,58 @@
     - HPC (ARC, CSD3, Rescale)
     - Method of Characteristics
 
-- category: oxford
-  title: "NeSC — Neuro-Symbolic Closure"
-  period: "Oxford (Visiting Researcher)"
-  description: "Proprietary neuro-symbolic ML workspace for pyrolysis chemistry. A SLURM-parallelised Latin-hypercube campaign builds a multi-million-row Cantera plug-flow-reactor database; leakage-safe run-grouped splits and species lumping compress ~2,000 species into 9 chemistry groups. A PINN is distilled via symbolic regression (PySR, SymTorch) into compact, human-readable rate laws that couple directly into a CFD solver — holdout-validated end-to-end, with a manuscript in preparation for Nature Communications."
-  tags:
-    - PyTorch
-    - PINN / PI-RNN
-    - Symbolic Regression (PySR / SymTorch)
-    - Cantera
-    - HPC / SLURM
-  proprietary: true
-
-- category: oxford
+- category: project
   title: "Multi-Stage Meanline Toolchain — Reacting Flow Extension"
-  period: "Oxford (Visiting Researcher)"
-  description: "Extended the Oxford Thermofluids Institute's in-house multi-stage aerodynamics meanline code with Cantera reacting-flow chemistry, Bayesian optimisation, and Pareto-front genetic-algorithm multi-objective optimisation, plus holdout-validated surrogate models for rapid performance screening of turbo-reactor stages."
+  description: "Extended the Oxford Thermofluids Institute's in-house multi-stage meanline code with inline Cantera chemistry, Bayesian optimisation and Pareto-front multi-objective search, for rapid performance and yield screening of turbo-reactor stages. Its validated runs also supply the reference reaction paths for the learned chemistry below."
   tags:
     - Meanline Methods
     - Cantera
     - Fortran / Python
     - Bayesian Optimisation
     - Multi-Objective GA (Pareto)
-    - Performance Screening
 
-- category: open_source
+- category: project
+  title: "RateNet — Physics-Informed Neural Rate Closures"
+  description: "Replaces detailed pyrolysis kinetics (153 species, 2,146 reactions) with a PINN that predicts the reaction rates of 13 lumped species from the local state of a CFD cell. Trained on Cantera reactor databases with physics penalties (sign, Arrhenius consistency, mass balance), it matches Cantera along a reactor meanline with a median rate ratio of 1.00, and exports to a self-checking format that Fortran solvers read without PyTorch. Manuscript in preparation."
+  tags:
+    - PyTorch
+    - PINNs
+    - Cantera
+    - Reduced Chemistry
+    - Fortran Export
+  proprietary: true
+
+- category: project
+  title: "TBLOCK-X — Learned Chemistry in a Turbomachinery CFD Solver"
+  description: "Puts RateNet inside a production multiblock turbomachinery solver of the TBLOCK lineage, so full 3D turbo-reactor simulations carry reacting chemistry at about 15× the cost of a non-reacting step — against an estimated 350–11,000× for detailed kinetics. Runs to 972 blocks on CSD3 with turbulence, mixing and sliding planes; one switch turns the chemistry on, and off the solver is bit-identical to the original. Verified in the coupled system for conservation, bounds and rank-count independence."
+  tags:
+    - Fortran / MPI
+    - CFD
+    - PINN Coupling
+    - Turbomachinery
+    - HPC (CSD3)
+  proprietary: true
+
+- category: project
+  title: "NeSC — Neuro-Symbolic Closure"
+  description: "Turns neural chemistry surrogates into compact, human-readable rate laws. A physics-informed network trained on reactor simulations is distilled by symbolic regression into closed-form expressions that a CFD solver can use directly — interpretable chemistry instead of a black box."
+  tags:
+    - PINNs
+    - Symbolic Regression
+    - Reacting Flows
+  proprietary: true
+
+- category: project
+  title: "Super Rotor Designer"
+  description: "Supersonic impulse-rotor design workflow: parametric blade geometry from a method-of-characteristics solver, evaluated aerodynamically in MISES."
+  tags:
+    - Python
+    - MATLAB
+    - Method of Characteristics
+    - MISES
+
+- category: project
   title: "PlugFlowML"
-  period: "Independent (2025)"
   description: "Open-source, MIT-licensed 10-lesson graduate course teaching ML surrogate modelling for physical simulation on reactor chemistry — tree ensembles, neural nets, PINNs, symbolic regression, and Bayesian optimisation, from Cantera-generated plug-flow-reactor data through to a distilled symbolic surrogate. Runs end-to-end on free Colab against a shared sample dataset."
   tags:
     - PyTorch
@@ -55,9 +92,8 @@
     - Bayesian Optimisation
   github: "https://github.com/karefyllidis/PlugFlowML"
 
-- category: open_source
+- category: project
   title: "SEBO — Sample-Efficient Bayesian Optimizer"
-  period: "Independent (2025)"
   description: "Sample-efficient Bayesian optimiser built from scratch and published to PyPI. GP surrogate with competing kernels (RBF, Matérn ν=1.5) chosen each round by log-marginal likelihood; ensemble acquisition (EI/PI/UCB) with log/Box-Cox output warping for objectives spanning orders of magnitude. Benchmarked against Optuna-TPE and TuRBO on 6 synthetic functions; originally written for the NeurIPS 2020 BBO Challenge."
   tags:
     - Python
@@ -67,17 +103,3 @@
   github: "https://github.com/karefyllidis/SEBO"
   link_url: "https://pypi.org/project/sebo/"
   link_label: "PyPI"
-
-
-- category: ind_active
-  title: "Super Rotor Designer"
-  period: "Oxford PhD, extended 2025–present"
-  description: "End-to-end supersonic impulse-rotor design workflow: parametric blade geometry from a method-of-characteristics solver, aerodynamic evaluation in MISES, and a reinforcement learning loop that perturbs mid-chord and passage geometry while keeping the leading and trailing edges fixed. MOC output feeds directly into MISES; RL reward comes from the cascade performance metrics."
-  tags:
-    - Python
-    - MATLAB
-    - Method of Characteristics
-    - MISES
-    - Reinforcement Learning
-
-

@@ -14,11 +14,12 @@
   org: "University of Oxford, Dept. of Engineering Science"
   period: "Sep 2024 – present"
   url: "https://eng.ox.ac.uk"
-  summary: "Post-PhD research focused on scientific ML, run in parallel with full-time work at Coolbrook. Built NeSC (Neuro-Symbolic Closure): an end-to-end pipeline that turns HPC-scale physics-simulation data into fast, interpretable ML surrogates for reaction chemistry too expensive to compute directly."
+  summary: "Post-PhD research focused on scientific ML, run in parallel with full-time work at Coolbrook. Built an end-to-end pipeline that takes reacting-flow chemistry too expensive to compute directly from detailed kinetics, through learned and interpretable surrogates, into a production turbomachinery CFD solver."
   highlights:
-    - "Generated a multi-million-row training dataset from HPC-scale physics-simulation campaigns using SLURM-parallelised Latin-hypercube design-of-experiments — training fast ML surrogates for chemistry too expensive to compute directly."
-    - "Engineered features with leakage-safe, run-grouped splits and domain-driven dimensionality reduction (species lumping), compressing up to ~2,000 species into 9 chemistry lumps."
-    - "Trained a physics-informed neural network (PINN) and distilled it via symbolic regression (PySR, SymTorch) into compact, human-readable, physically consistent rate laws that couple directly into a CFD solver — holdout-validated, manuscript in preparation for Nature Communications."
+    - "Generated multi-million-row training databases from SLURM-parallelised Latin-hypercube campaigns of Cantera reactor simulations, with leakage-safe run-grouped splits and species lumping into compact chemistry groups."
+    - "Built RateNet: a physics-informed neural network that replaces 153-species, 2,146-reaction pyrolysis kinetics with 13 lumped rates, matching Cantera along a reactor meanline with a median rate ratio of 1.00 — manuscript in preparation."
+    - "Coupled RateNet into TBLOCK-X, a multiblock turbomachinery CFD solver, making 3D reacting simulations cost about 15× a non-reacting step instead of an estimated 350–11,000× for detailed chemistry, verified on up to 972 blocks on CSD3."
+    - "Distilled neural chemistry surrogates into human-readable rate laws via symbolic regression (NeSC), so the closure can be inspected rather than trusted as a black box."
     - "Delivered meanline-cantera: 1D multi-stage turbo-reactor solver with inline Cantera chemistry, multi-objective optimisation, and Latin-hypercube DOE — producing validated performance maps and surrogate training datasets."
     - "Co-supervised a PhD researcher on experimental supersonic aerodynamics and heat transfer."
 
